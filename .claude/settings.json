@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Start-Sleep -Seconds 6; try { $r = Invoke-WebRequest -Uri \"http://127.0.0.1:3000\" -UseBasicParsing -TimeoutSec 20; \"STATUS: $\\($r.StatusCode\\)\" } catch { \"ERROR: $\\($_.Exception.Message\\)\" })",
+      "PowerShell(Start-Sleep -Seconds 10; try { $r = Invoke-WebRequest -Uri \"http://127.0.0.1:3000\" -UseBasicParsing -TimeoutSec 25; \"STATUS: $\\($r.StatusCode\\)\" } catch { \"ERROR: $\\($_.Exception.Message\\)\" })",
+      "PowerShell(Stop-Process -Id 36484 -Force -Confirm:$false -ErrorAction SilentlyContinue)",
+      "PowerShell(Start-Sleep -Seconds 6; try { $r = Invoke-WebRequest -Uri \"http://127.0.0.1:3000/kadikoy-esya-tahliye\" -UseBasicParsing -TimeoutSec 20; \"STATUS: $\\($r.StatusCode\\)\" } catch { \"ERROR: $\\($_.Exception.Message\\)\" })",
+      "PowerShell(Start-Sleep -Seconds 6; try { $r = Invoke-WebRequest -Uri \"http://127.0.0.1:3000/kadikoy-eski-koltuk-nereye-atilir\" -UseBasicParsing -TimeoutSec 20; \"STATUS: $\\($r.StatusCode\\)\" } catch { \"ERROR: $\\($_.Exception.Message\\)\" })",
+      "WebSearch",
+      "PowerShell(npm ls lighthouse 2>&1)",
+      "PowerShell(npx --yes lighthouse --version 2>&1)",
+      "PowerShell(if \\(Test-Path \"C:\\\\Projects\\\\Webproject\\\\.next\\\\static\\\\chunks\"\\) { Get-ChildItem -Path \"C:\\\\Projects\\\\Webproject\\\\.next\\\\static\\\\chunks\" -ErrorAction SilentlyContinue | Where-Object {$_.Extension -eq '.js'} | Sort-Object Length -Descending | Select-Object -First 10 | Format-Table Name, @{Label='Size\\(KB\\)';Expression={[math]::Round\\($_.Length/1024,2\\)}} } else { Write-Output \".next/static/chunks not found\" })",
+      "PowerShell(\\(Get-Content -Raw 'c:\\\\Projects\\\\Webproject\\\\src\\\\data\\\\content.ts'\\) -replace '\\\\?auto=format&fit=crop&w=1200&q=80', '?auto=format&fit=crop&w=800&q=75' | Set-Content -NoNewline 'c:\\\\Projects\\\\Webproject\\\\src\\\\data\\\\content.ts')",
+      "PowerShell($sw = [System.Diagnostics.Stopwatch]::StartNew\\(\\); $r = Invoke-WebRequest -Uri \"https://pirantech.app/\" -UseBasicParsing -TimeoutSec 30; $sw.Stop\\(\\); \"TotalTime_ms: $\\($sw.ElapsedMilliseconds\\)\"; \"StatusCode: $\\($r.StatusCode\\)\"; $r.Headers | Format-Table -AutoSize | Out-String)",
+      "PowerShell(Test-NetConnection -ComputerName pirantech.app -Port 443 -InformationLevel Detailed)",
+      "PowerShell(Get-ChildItem \"C:\\\\Projects\\\\Webproject\" -Force | Where-Object { $_.Name -match '^\\\\.' } | Select-Object Name)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Projects\\\\Webproject\" -Force | Where-Object { $_.Name -eq '.git' })",
+      "PowerShell(Get-ChildItem \"C:\\\\Projects\\\\Webproject\" -Depth 0 | Where-Object { $_.PSIsContainer -eq $false } | Select-Object Name)",
+      "PowerShell(Get-ChildItem \"C:\\\\Projects\\\\Webproject\" -Force -File | Select-Object Name, @{Name=\"Size\"; Expression={$_.Length}} | Sort-Object Name)",
+      "PowerShell(Get-ChildItem \"C:\\\\Projects\\\\Webproject\" -Directory | Where-Object { $_.Name -notmatch 'node_modules|\\\\.next' } | Select-Object Name)",
+      "WebFetch(domain:images.unsplash.com)",
+      "PowerShell(try { $r = Invoke-WebRequest -Uri \"http://localhost:3000/blog\" -UseBasicParsing -TimeoutSec 5; \"STATUS:$\\($r.StatusCode\\) LEN:$\\($r.Content.Length\\)\" } catch { \"ERROR: $_\" })",
+      "PowerShell(Copy-Item -Path \"c:\\\\Projects\\\\Webproject\\\\public\\\\images\\\\favicon.png\" -Destination \"c:\\\\Projects\\\\Webproject\\\\src\\\\app\\\\icon.png\" -Force)",
+      "WebFetch(domain:www.molozhatti.com.tr)",
+      "WebFetch(domain:atiyorum.com)",
+      "WebFetch(domain:www.atiyorum.com)",
+      "PowerShell(try { $r = Invoke-WebRequest -Uri \"https://atiyorum.com\" -UserAgent \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36\" -TimeoutSec 20; $r.Content.Length; $r.Content.Substring\\(0, [Math]::Min\\(3000, $r.Content.Length\\)\\) } catch { $_.Exception.Message })",
+      "PowerShell(try { $r = Invoke-WebRequest -Uri \"https://atiyorum.com/cgi-sys/defaultwebpage.cgi\" -UserAgent \"Mozilla/5.0\" -TimeoutSec 20; $r.Content.Substring\\(0, [Math]::Min\\(1500, $r.Content.Length\\)\\) } catch { $_.Exception.Message })",
+      "PowerShell(try { $r = Invoke-WebRequest -Uri \"https://copatim.com\" -UserAgent \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36\" -TimeoutSec 20; \"LENGTH: \" + $r.Content.Length; $r.Content.Substring\\(0, [Math]::Min\\(2000, $r.Content.Length\\)\\) } catch { $_.Exception.Message })",
+      "PowerShell(try { $r = Invoke-WebRequest -Uri \"https://copatim.com/sitemap.xml\" -UserAgent \"Mozilla/5.0\" -TimeoutSec 20; $r.Content } catch { $_.Exception.Message })",
+      "PowerShell(try { $r = Invoke-WebRequest -Uri \"https://copatim.com/besiktas-cop-atim.html\" -UserAgent \"Mozilla/5.0\" -TimeoutSec 20; \"LEN: \" + $r.Content.Length } catch { $_.Exception.Message })",
+      "PowerShell(\\(Get-Content \"c:\\\\Projects\\\\Webproject\\\\src\\\\data\\\\blog-posts.ts\" | Measure-Object -Line\\).Lines)",
+      "PowerShell(try { $r1 = Invoke-WebRequest -Uri \"https://copatim.com/blog/besiktas-eski-koltuk-nereye-atilir.html\" -UserAgent \"Mozilla/5.0\" -TimeoutSec 20; $r2 = Invoke-WebRequest -Uri \"https://copatim.com/blog/sisli-eski-koltuk-nereye-atilir.html\" -UserAgent \"Mozilla/5.0\" -TimeoutSec 20; \"PAGE1 LEN: \" + $r1.Content.Length; \"PAGE2 LEN: \" + $r2.Content.Length } catch { $_.Exception.Message })",
+      "PowerShell(npx tsc --noEmit -p tsconfig.json 2>&1)"
+    ]
+  }
+}

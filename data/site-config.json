@@ -1,0 +1,33 @@
+{
+  "colors": {
+    "background": "#07080a",
+    "backgroundElevated": "#0d0f12",
+    "foreground": "#f5f6f3",
+    "muted": "#9aa0a6",
+    "accent": "#c6ff5e",
+    "accent2": "#f2b94d"
+  },
+  "hero": {
+    "badge": "İstanbul'un Premium Tahliye Hizmeti",
+    "headlineLine1": "Fazlalıklarınızdan",
+    "headlineAccent": "tek bir günde",
+    "headlineSuffix": "kurtulun.",
+    "description": "Ev, ofis, depo ve çatı katlarınızdaki fazlalıkları; sigortalı, profesyonel ekibimizle aynı gün tahliye ediyoruz. Şeffaf fiyat, çevre dostu bertaraf, kusursuz teslim.",
+    "ctaPrimary": "Ücretsiz Fiyat Al",
+    "ctaSecondary": "Nasıl Çalışır?",
+    "stats": [
+      {
+        "value": "12.450+",
+        "label": "Tamamlanan İş"
+      },
+      {
+        "value": "4.9 / 5",
+        "label": "Müşteri Puanı"
+      },
+      {
+        "value": "1 Saat",
+        "label": "Ortalama Yanıt"
+      }
+    ]
+  }
+}
