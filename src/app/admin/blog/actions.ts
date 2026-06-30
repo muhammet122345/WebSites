@@ -71,7 +71,12 @@ export async function updatePost(
 }
 
 export async function deletePost(slug: string, _formData: FormData) {
-  await deleteBlogPost(slug);
+  try {
+    await deleteBlogPost(slug);
+  } catch (err) {
+    console.error("deletePost failed:", err);
+    redirect("/admin/blog?error=1");
+  }
   revalidatePath("/blog");
   revalidatePath(`/blog/${slug}`);
   revalidatePath("/");

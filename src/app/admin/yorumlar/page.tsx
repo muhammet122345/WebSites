@@ -1,5 +1,6 @@
 import AdminHeader from "../AdminHeader";
 import DeleteButton from "../DeleteButton";
+import ErrorBanner from "../ErrorBanner";
 import { getAllReviews, type Review } from "@/lib/reviews-store";
 import { approveReview, rejectReview, removeReview } from "./actions";
 
@@ -40,8 +41,12 @@ function ReviewCard({ review, children }: { review: Review; children: React.Reac
   );
 }
 
-export default async function AdminReviewsPage() {
-  const all = await getAllReviews();
+export default async function AdminReviewsPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ error?: string }>;
+}) {
+  const [all, { error }] = await Promise.all([getAllReviews(), searchParams]);
   const pending = all.filter((r) => r.status === "pending");
   const approved = all.filter((r) => r.status === "approved");
   const rejected = all.filter((r) => r.status === "rejected");
@@ -50,6 +55,10 @@ export default async function AdminReviewsPage() {
     <div className="min-h-screen bg-background px-6 py-12 text-foreground">
       <div className="mx-auto max-w-4xl">
         <AdminHeader active="/admin/yorumlar" />
+
+        {error && (
+          <ErrorBanner message="İşlem gerçekleştirilemedi. Depolama bağlantısında bir sorun olabilir — Vercel Blob bağlantısını ve son deploy'u kontrol edin." />
+        )}
 
         <section>
           <h2 className="font-display text-xl font-semibold">

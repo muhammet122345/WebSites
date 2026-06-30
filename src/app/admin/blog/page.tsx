@@ -1,16 +1,25 @@
 import Link from "next/link";
 import AdminHeader from "../AdminHeader";
 import DeleteButton from "../DeleteButton";
+import ErrorBanner from "../ErrorBanner";
 import { getAllBlogPosts } from "@/lib/blog-store";
 import { deletePost } from "./actions";
 
-export default async function AdminBlogListPage() {
-  const posts = await getAllBlogPosts();
+export default async function AdminBlogListPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ error?: string }>;
+}) {
+  const [posts, { error }] = await Promise.all([getAllBlogPosts(), searchParams]);
 
   return (
     <div className="min-h-screen bg-background px-6 py-12 text-foreground">
       <div className="mx-auto max-w-5xl">
         <AdminHeader active="/admin/blog" />
+
+        {error && (
+          <ErrorBanner message="İşlem gerçekleştirilemedi. Depolama bağlantısında bir sorun olabilir — Vercel Blob bağlantısını ve son deploy'u kontrol edin." />
+        )}
 
         <div className="mb-6 flex flex-wrap items-center justify-between gap-4">
           <div>
