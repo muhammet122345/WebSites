@@ -18,7 +18,7 @@ function localPath(key: string): string {
 export async function readStore<T>(key: string, fallback: T): Promise<T> {
   if (hasBlobToken()) {
     try {
-      const result = await get(`${key}.json`, { access: "public" });
+      const result = await get(`${key}.json`, { access: "private" });
       if (!result || result.stream === null) return fallback;
       const text = await new Response(result.stream).text();
       return JSON.parse(text) as T;
@@ -41,7 +41,7 @@ export async function writeStore<T>(key: string, data: T): Promise<void> {
 
   if (hasBlobToken()) {
     await put(`${key}.json`, json, {
-      access: "public",
+      access: "private",
       addRandomSuffix: false,
       allowOverwrite: true,
       contentType: "application/json",
