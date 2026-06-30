@@ -113,7 +113,7 @@ export default async function RootLayout({
       
       <body className="min-h-full flex flex-col bg-background text-foreground">
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-752WTYBSQV"
+          src="https://www.googletagmanager.com/gtag/js?id=G-VN8R73M6NP"
           strategy="afterInteractive"
         />
         <Script id="gtag-init" strategy="afterInteractive">
@@ -121,7 +121,7 @@ export default async function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-752WTYBSQV');
+            gtag('config', 'G-VN8R73M6NP');
           `}
         </Script>
         <script
