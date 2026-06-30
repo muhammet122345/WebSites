@@ -22,7 +22,8 @@ export async function readStore<T>(key: string, fallback: T): Promise<T> {
       if (!result || result.stream === null) return fallback;
       const text = await new Response(result.stream).text();
       return JSON.parse(text) as T;
-    } catch {
+    } catch (err) {
+      console.error(`blob-store: readStore(${key}) failed, using fallback:`, err);
       return fallback;
     }
   }

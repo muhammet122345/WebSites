@@ -31,7 +31,8 @@ export async function submitReview(
     revalidatePath("/admin/yorumlar");
     revalidatePath("/admin");
     return { success: true };
-  } catch {
+  } catch (err) {
+    console.error("submitReview failed:", err);
     return { error: "Yorumunuz gönderilemedi, lütfen tekrar deneyin." };
   }
 }
