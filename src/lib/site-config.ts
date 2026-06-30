@@ -1,5 +1,4 @@
-import { promises as fs } from "fs";
-import path from "path";
+import { readStore, writeStore } from "./blob-store";
 
 export type SiteColors = {
   background: string;
@@ -59,7 +58,7 @@ export const DEFAULT_SITE_CONFIG: SiteConfig = {
   },
 };
 
-const CONFIG_PATH = path.join(process.cwd(), "data", "site-config.json");
+const STORE_KEY = "site-config";
 
 function mergeConfig(partial: Partial<SiteConfig> | null): SiteConfig {
   if (!partial) return DEFAULT_SITE_CONFIG;
@@ -77,16 +76,10 @@ function mergeConfig(partial: Partial<SiteConfig> | null): SiteConfig {
 }
 
 export async function getSiteConfig(): Promise<SiteConfig> {
-  try {
-    const raw = await fs.readFile(CONFIG_PATH, "utf-8");
-    const parsed = JSON.parse(raw) as Partial<SiteConfig>;
-    return mergeConfig(parsed);
-  } catch {
-    return DEFAULT_SITE_CONFIG;
-  }
+  const stored = await readStore<Partial<SiteConfig> | null>(STORE_KEY, null);
+  return mergeConfig(stored);
 }
 
 export async function saveSiteConfig(config: SiteConfig): Promise<void> {
-  await fs.mkdir(path.dirname(CONFIG_PATH), { recursive: true });
-  await fs.writeFile(CONFIG_PATH, JSON.stringify(config, null, 2), "utf-8");
+  await writeStore(STORE_KEY, config);
 }

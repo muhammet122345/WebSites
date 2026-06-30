@@ -43,7 +43,8 @@ export async function updateConfig(_prevState: SaveState, formData: FormData): P
     revalidatePath("/admin/site");
 
     return { success: true };
-  } catch {
+  } catch (err) {
+    console.error("updateConfig failed:", err);
     return { error: "Kaydedilirken bir hata oluştu." };
   }
 }
