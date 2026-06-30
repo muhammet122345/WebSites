@@ -15,6 +15,9 @@ import JsonLd from "@/components/JsonLd";
 import { DISTRICTS, districtPath, getDistrictBySlug } from "@/data/districts";
 import { getCombosForDistrict, getComboRoutes, resolveComboSlug } from "@/lib/combo-routes";
 import { breadcrumbSchema } from "@/lib/schema";
+import { getApprovedReviews } from "@/lib/reviews-store";
+
+export const revalidate = 300;
 
 export function generateStaticParams() {
   const districtParams = DISTRICTS.map((d) => ({ slug: districtPath(d).slice(1) }));
@@ -137,6 +140,7 @@ export default async function SlugPage({
   if (!district) notFound();
 
   const relatedCombos = getCombosForDistrict(district.slug);
+  const reviews = await getApprovedReviews();
 
   return (
     <>
@@ -194,7 +198,7 @@ export default async function SlugPage({
         <Services />
         <Process />
         <Stats />
-        <Testimonials />
+        <Testimonials reviews={reviews} />
         <CTA />
       </main>
       <Footer />

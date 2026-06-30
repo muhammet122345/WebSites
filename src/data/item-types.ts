@@ -94,12 +94,12 @@ export const ITEM_TYPES: ItemType[] = [
     label: "Mobilya & Dolap",
     titleSuffix: "Mobilya ve Dolap Attırma Hizmeti",
     intro:
-      "Büyük gardırop, dolap ve diğer ahşap mobilyalarınızı gerektiğinde yerinde söküp güvenli şekilde taşıyor, durumuna göre bağış veya geri dönüşüme yönlendiriyoruz.",
+      "Büyük gardırop, dolap ve diğer ahşap mobilyalarınızı yerinde söküyor, bulunduğu kattan kendi ekibimizle alıp tahliye ediyor, durumuna göre bağış veya geri dönüşüme yönlendiriyoruz — siz hiçbir şeyi kapıya çıkarmazsınız.",
     sections: [
       {
-        heading: "Sökme ve taşıma neden uzmanlık ister?",
+        heading: "Sökme ve tahliye neden uzmanlık ister?",
         body:
-          "Büyük gardıroplar tek parça halinde dar koridorlardan geçmeyebilir; doğru sökme ve etiketleme, eşyanın ve binanın hasar görmeden taşınmasını sağlar.",
+          "Büyük gardıroplar tek parça halinde dar koridorlardan geçmeyebilir; doğru sökme ve etiketleme, eşyanın ve binanın hasar görmeden çıkarılmasını sağlar.",
       },
       {
         heading: "Bağış mı, geri dönüşüm mü?",
@@ -107,9 +107,9 @@ export const ITEM_TYPES: ItemType[] = [
           "Sağlam mobilyalar ihtiyaç sahiplerine ulaştırılmak üzere bağış kurumlarına yönlendirilir; kullanılamaz durumdaki parçalar ahşap geri dönüşüm tesislerinde değerlendirilir.",
       },
       {
-        heading: "Asansörsüz binalarda güvenli taşıma",
+        heading: "Asansörsüz binalarda güvenli tahliye",
         body:
-          "Deneyimli ekibimiz, kayış ve koruma ekipmanlarıyla en üst katlardan dahi büyük mobilyaları güvenle indirir.",
+          "Deneyimli ekibimiz, kayış ve koruma ekipmanlarıyla en üst katlardan dahi büyük mobilyaları kendisi indirir; siz tek bir adım bile taşımazsınız.",
       },
     ],
   },

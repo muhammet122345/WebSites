@@ -9,6 +9,9 @@ import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
 import { BRAND } from "@/data/content";
 import { breadcrumbSchema } from "@/lib/schema";
+import { getApprovedReviews } from "@/lib/reviews-store";
+
+export const revalidate = 300;
 
 export const metadata: Metadata = {
   title: "Ev Boşaltma Hizmeti İstanbul | Eşya ve Mobilya Tahliyesi",
@@ -53,6 +56,11 @@ const FAQ_ITEMS = [
     answer:
       "Evet, İstanbul'un Avrupa ve Anadolu yakasındaki tüm ilçelerde hizmet veriyoruz. Bölgenize özel detaylar için ilçeler sayfamıza göz atabilirsiniz.",
   },
+  {
+    question: "Eşyaları kapıya kendim mi çıkarmam gerekiyor?",
+    answer:
+      "Hayır. Ekibimiz adresinize gelir, eşyaları bulunduğu odadan veya kattan kendi imkanlarımızla alıp dışarı taşır. Asansörsüz binalarda bile siz hiçbir şey taşımazsınız, biz tamamen yerinde tahliye ediyoruz.",
+  },
 ];
 
 const faqSchema = {
@@ -68,8 +76,9 @@ const faqSchema = {
   })),
 };
 
-export default function EvBosaltmaPage() {
+export default async function EvBosaltmaPage() {
   const message = "Merhaba, ev boşaltma hizmeti için fiyat almak istiyorum.";
+  const reviews = await getApprovedReviews();
 
   return (
     <>
@@ -159,7 +168,7 @@ export default function EvBosaltmaPage() {
           </div>
         </section>
 
-        <Testimonials />
+        <Testimonials reviews={reviews} />
         <CTA />
       </main>
       <Footer />

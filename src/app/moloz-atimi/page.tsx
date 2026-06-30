@@ -9,6 +9,9 @@ import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
 import { BRAND } from "@/data/content";
 import { breadcrumbSchema } from "@/lib/schema";
+import { getApprovedReviews } from "@/lib/reviews-store";
+
+export const revalidate = 300;
 
 export const metadata: Metadata = {
   title: "Moloz Atımı ve Hafriyat Taşıma Hizmeti İstanbul",
@@ -68,8 +71,9 @@ const faqSchema = {
   })),
 };
 
-export default function MolozAtimiPage() {
+export default async function MolozAtimiPage() {
   const message = "Merhaba, moloz atımı / hafriyat taşıma için fiyat almak istiyorum.";
+  const reviews = await getApprovedReviews();
 
   return (
     <>
@@ -209,7 +213,7 @@ export default function MolozAtimiPage() {
           </div>
         </section>
 
-        <Testimonials />
+        <Testimonials reviews={reviews} />
         <CTA />
       </main>
       <Footer />

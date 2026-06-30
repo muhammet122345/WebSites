@@ -75,7 +75,7 @@ export const SERVICES = [
   {
     title: "Mobilya Söküm & Tahliyesi",
     description:
-      "Büyük mobilyaları güvenle söküp paketleyerek aracımızla istediğiniz adrese veya geri dönüşüme taşıyoruz.",
+      "Büyük mobilyaları yerinde söküyor, bulunduğu kattan kendi ekibimizle alıp güvenle tahliye ediyoruz; siz hiçbir şeyi taşımıyorsunuz.",
     image: "/images/mobilya.png",
     icon: "truck",
   },
@@ -116,7 +116,7 @@ export const PROCESS_STEPS = [
   {
     title: "Ekip Sahaya Çıkar",
     description:
-      "Anlaştığınız tarihte profesyonel ve sigortalı ekibimiz randevuya gelir.",
+      "Anlaştığınız tarihte profesyonel ve sigortalı ekibimiz adresinize gelir, eşyaları bulunduğu yerden kendi imkanlarımızla alıp dışarı çıkarır — siz kapıya kadar taşımazsınız.",
   },
   {
     title: "Tertemiz Teslim",
@@ -160,21 +160,21 @@ export const TESTIMONIALS = [
   },
   {
     name: "Mert A.",
-    role: "Ankara, Çankaya",
+    role: "İstanbul, Şişli",
     quote:
       "Ofis taşıma sürecimizde tam zamanında geldiler, her şeyi özenle paketleyip taşıdılar. Fiyat da baştan söyledikleri gibi çıktı.",
     rating: 5,
   },
   {
     name: "Burcu S.",
-    role: "İzmir, Bornova",
+    role: "İstanbul, Üsküdar",
     quote:
       "Yıllarca dolan çatı katımızı bir günde teslim aldılar. Profesyonel, şeffaf ve gerçekten güvenilir bir ekip.",
     rating: 5,
   },
   {
     name: "Caner T.",
-    role: "Bursa, Nilüfer",
+    role: "İstanbul, Başakşehir",
     quote:
       "İnşaat molozu için aradığım her firma günler sonra dönüş yaptı, Fazlalıkat aynı gün geldi ve işi bitirdi.",
     rating: 5,
@@ -201,5 +201,10 @@ export const FAQ = [
     question: "Sigortalı mısınız?",
     answer:
       "Evet, tüm ekiplerimiz ve araçlarımız iş kazası ve nakliye sigortası kapsamındadır.",
+  },
+  {
+    question: "Eşyaları kapıya kendim mi çıkarmam gerekiyor?",
+    answer:
+      "Hayır. Ekibimiz adresinize gelir, eşyaları bulunduğu odadan veya kattan kendi imkanlarımızla alıp dışarı taşır. Siz hiçbir şeyi kapıya, kaldırıma veya asansöre taşımak zorunda kalmazsınız — biz tamamen yerinde tahliye ediyoruz.",
   },
 ];

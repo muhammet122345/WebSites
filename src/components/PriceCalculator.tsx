@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { BRAND } from "@/data/content";
+import { DISTRICTS as ISTANBUL_DISTRICTS } from "@/data/districts";
 
 const SERVICE_TYPES = [
   { id: "ev", label: "Ev / Daire" },
@@ -13,14 +14,7 @@ const SERVICE_TYPES = [
   { id: "acil", label: "Acil Çöp / Hurda" },
 ];
 
-const DISTRICTS = [
-  "Kadıköy",
-  "Beşiktaş",
-  "Çankaya",
-  "Bornova",
-  "Nilüfer",
-  "Diğer",
-];
+const DISTRICTS = [...ISTANBUL_DISTRICTS.map((d) => d.name), "Diğer"];
 
 export default function PriceCalculator() {
   const [serviceId, setServiceId] = useState(SERVICE_TYPES[0].id);

@@ -33,6 +33,13 @@ export function parsePostDate(post: BlogPost): Date {
   return new Date(Number(year), TURKISH_MONTHS[monthAbbr] ?? 0, Number(day));
 }
 
+const TURKISH_MONTH_ABBR = ["Oca", "Şub", "Mar", "Nis", "May", "Haz", "Tem", "Ağu", "Eyl", "Eki", "Kas", "Ara"];
+
+export function formatPostDate(date: Date): string {
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${day} ${TURKISH_MONTH_ABBR[date.getMonth()]} ${date.getFullYear()}`;
+}
+
 export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "eski-koltuk-nereye-atilir",
@@ -2158,8 +2165,364 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "erenkoy-eski-esya-toplama-hizmeti",
+    title: "Erenköy Eski Eşya Toplama Hizmeti",
+    excerpt:
+      "Erenköy'ün köklü apartmanları ve geniş aile yapısında eski eşya toplama sürecinin nasıl planlanması gerektiğini anlatıyoruz.",
+    date: "11 Eki 2026",
+    category: "Mahalle Rehberi",
+    image: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=1000&q=80",
+    sections: [
+      {
+        heading: "Erenköy'de eski eşya neden birikir?",
+        body:
+          "Erenköy, İstanbul'un en köklü yerleşim bölgelerinden biri olduğu için aynı ailenin nesiller boyu oturduğu geniş daireler yaygındır. Miras, tadilat veya kuşak değişimi sonrası birikmiş mobilya ve eşya hacmi, tek seferde kaldırılması gereken büyük miktarlara ulaşabilir.",
+      },
+      {
+        heading: "Bağdat Caddesi çevresinde taşıma zorlukları",
+        body:
+          "Bağdat Caddesi'ne yakın sokaklarda park yeri kısıtlı olduğundan, büyük taşıma araçlarının bina önüne yanaşması için randevu saatinin doğru planlanması gerekir; özellikle öğleden sonra trafiğin yoğunlaştığı saatlerde bu daha da önem kazanır.",
+      },
+      {
+        heading: "Eski apartmanlarda asansör ve kat sorunu",
+        body:
+          "Erenköy'ün 1960-80 arası inşa edilmiş apartmanlarının bir kısmında asansör dar veya yoktur; bu da büyük mobilyaların merdivenden indirilmesini gerektirir ve deneyimli ekip ihtiyacını artırır.",
+      },
+      {
+        heading: "Belediye mi, hurdacı mı, profesyonel ekip mi?",
+        body:
+          "Belediye büyük atık hattı haftalar sürebilir, hurdacılar sadece metal değeri olan parçaları kabul eder; profesyonel bir tahliye ekibi ise eşyanın tamamını tek seferde, net randevu saatiyle alır.",
+      },
+      {
+        heading: "Fazlalıkat ile Erenköy'de eşya toplama",
+        body:
+          "Erenköy'ün köklü apartman dokusuna ve dar park koşullarına uygun şekilde çalışıyor, eski eşyalarınızı aynı gün randevu ile bulunduğu kattan alıp doğru bertaraf noktalarına yönlendiriyoruz.",
+      },
+    ],
+  },
+  {
+    slug: "suadiyede-eski-esya-nereye-atilir",
+    title: "Suadiye'de Eski Eşya Nereye Atılır?",
+    excerpt:
+      "Suadiye'nin sahil hattındaki butik apartmanlarında ve sitelerde eski eşyanın doğru ve hızlı şekilde nasıl tahliye edileceğini anlatıyoruz.",
+    date: "13 Eki 2026",
+    category: "Mahalle Rehberi",
+    image: "https://images.unsplash.com/photo-1663625318264-695d2d04f11a?auto=format&fit=crop&w=1000&q=80",
+    sections: [
+      {
+        heading: "Suadiye'de eski eşya atımı neden farklıdır?",
+        body:
+          "Suadiye, Bağdat Caddesi'nin en hareketli kesimlerinden biri olduğu için hem yüksek değerli rezidanslar hem de eski yapı stoklu butik apartmanlar bir arada bulunur; bu çeşitlilik tahliye sürecinde farklı yaklaşımlar gerektirir.",
+      },
+      {
+        heading: "Sahil hattındaki sitelerde randevu kuralları",
+        body:
+          "Deniz manzaralı sitelerin çoğunda yük asansörü kullanım saatleri ve araç giriş kuralları yönetim tarafından belirlenir; randevu öncesi bu detayların netleştirilmesi günü kayıpsız geçirmenizi sağlar.",
+      },
+      {
+        heading: "Dar sokaklarda araç erişimi",
+        body:
+          "Bağdat Caddesi'ne paralel ara sokakların bir kısmı tek yönlü ve dardır; büyük araç yerine küçük araçla esnek planlama yapmak süreci hızlandırır.",
+      },
+      {
+        heading: "Bağışlanabilir eşyaların değerlendirilmesi",
+        body:
+          "Suadiye'deki hâlâ kullanılabilir durumdaki mobilyalar, belediyenin sosyal yardım birimleri veya çeşitli vakıflar aracılığıyla ihtiyaç sahiplerine ulaştırılabilir.",
+      },
+      {
+        heading: "Fazlalıkat ile Suadiye'de eşya tahliyesi",
+        body:
+          "Suadiye'nin hem site hem butik apartman dokusuna uygun ekipmanla çalışıyor, eski eşyalarınızı aynı gün randevu ile alıp geri dönüştürülebilir parçaları doğru noktalara yönlendiriyoruz.",
+      },
+    ],
+  },
+  {
+    slug: "ciftehavuzlar-esya-tahliye-hizmeti",
+    title: "Çiftehavuzlar Eşya Tahliye Hizmeti",
+    excerpt:
+      "Çiftehavuzlar'ın sakin ve dar sokaklı yerleşim dokusunda eşya tahliyesinin nasıl planlanması gerektiğini anlatıyoruz.",
+    date: "15 Eki 2026",
+    category: "Mahalle Rehberi",
+    image: "https://images.unsplash.com/photo-1764756896400-54b2aa9c216f?auto=format&fit=crop&w=1000&q=80",
+    sections: [
+      {
+        heading: "Çiftehavuzlar'ın yerleşim dokusu",
+        body:
+          "Çiftehavuzlar, Bağdat Caddesi ile sahil arasında kalan sakin ve büyük ölçüde aile apartmanlarından oluşan bir mahalledir; bu yapı, tahliye sırasında komşularla uyumlu, sessiz bir çalışma temposu gerektirir.",
+      },
+      {
+        heading: "Dar sokaklarda park ve manevra",
+        body:
+          "Mahallenin iç sokakları dar olduğundan, büyük taşıma araçlarının yerine küçük ve orta boy araçlarla esnek manevra yapmak çoğu zaman daha pratik bir çözümdür.",
+      },
+      {
+        heading: "Eski eşya ile yeni tadilat atığının ayrımı",
+        body:
+          "Tadilat geçiren dairelerde mobilya ile birlikte inşaat atığı da çıkabilir; bu iki atık türünün ayrı değerlendirilmesi bertaraf sürecini hızlandırır ve maliyeti netleştirir.",
+      },
+      {
+        heading: "Komşularla uyumlu randevu saatleri",
+        body:
+          "Sakin bir yerleşim olması nedeniyle, sabah erken veya öğle sonrası saatlerde planlanan taşımalar hem komşuluk ilişkilerini hem de trafik akışını koruyarak süreci kolaylaştırır.",
+      },
+      {
+        heading: "Fazlalıkat ile Çiftehavuzlar'da eşya tahliyesi",
+        body:
+          "Çiftehavuzlar'ın dar sokaklarına ve sakin yapısına uygun şekilde, sessiz ve düzenli çalışarak eski eşyalarınızı aynı gün randevu ile alıyoruz.",
+      },
+    ],
+  },
+  {
+    slug: "kalamis-eski-esya-toplama-ve-tahliye-hizmeti",
+    title: "Kalamış Eski Eşya Toplama ve Tahliye Hizmeti",
+    excerpt:
+      "Kalamış'ın marina çevresindeki site ve apartman karışımı dokusunda eski eşya toplama sürecini anlatıyoruz.",
+    date: "17 Eki 2026",
+    category: "Mahalle Rehberi",
+    image: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=1000&q=80",
+    sections: [
+      {
+        heading: "Kalamış'ta eşya tahliyesi neden özen ister?",
+        body:
+          "Kalamış Marina çevresi, hem yüksek katlı siteleri hem de Fenerbahçe'ye yakın eski apartmanlarıyla karma bir yapı sergiler; bu çeşitlilik her binaya uygun farklı ekipman ve yaklaşım gerektirir.",
+      },
+      {
+        heading: "Marina ve sahil bölgesinde araç erişimi",
+        body:
+          "Sahil yoluna yakın bloklarda araç park ve yanaşma noktaları kısıtlı olabilir; randevu saatinin gün içindeki sahil trafiğine göre planlanması süreci hızlandırır.",
+      },
+      {
+        heading: "Sitelerde yük asansörü kuralları",
+        body:
+          "Kalamış'taki rezidans ve sitelerin çoğunda yük asansörü kullanımı yönetim tarafından belirli saatlerle sınırlandırılır; bu kurallara uygun çalışmak hem bina hem de eşya güvenliğini korur.",
+      },
+      {
+        heading: "Eski apartmanlarda merdivenden taşıma",
+        body:
+          "Fenerbahçe sınırına yakın bazı eski apartmanlarda asansör dar veya yoktur; bu binalarda deneyimli ekip ve doğru ekipmanla merdivenden indirme gerekir.",
+      },
+      {
+        heading: "Fazlalıkat ile Kalamış'ta eşya tahliyesi",
+        body:
+          "Kalamış'ın site ve eski apartman karışımı dokusuna uygun ekipmanla çalışıyor, eşyalarınızı aynı gün randevu ile bulunduğu kattan alıyoruz.",
+      },
+    ],
+  },
+  {
+    slug: "caddebostan-hurda-mobilya-alanlar",
+    title: "Caddebostan Hurda Mobilya Alanlar ve Profesyonel Alternatif",
+    excerpt:
+      "Caddebostan'ın sahil hattındaki yoğun apartman yerleşiminde hurda mobilya tahliyesinin nasıl planlanması gerektiğini anlatıyoruz.",
+    date: "19 Eki 2026",
+    category: "Mahalle Rehberi",
+    image: "https://images.unsplash.com/photo-1714647211902-bb711d643a17?auto=format&fit=crop&w=1000&q=80",
+    sections: [
+      {
+        heading: "Caddebostan'da hurda mobilya neden birikir?",
+        body:
+          "Caddebostan, Bağdat Caddesi'nin en yoğun ve talebin yüksek olduğu kesimlerinden biridir; sık kiracı değişimi ve yenileme dönemlerinde mobilya ve beyaz eşya birikimi hızla artar.",
+      },
+      {
+        heading: "Hurdacılar yalnızca metal değeri olan eşyaları alır",
+        body:
+          "Bölgedeki hurdacılar genellikle sadece metal aksamı olan parçaları kabul eder; koltuk, dolap ve yatak gibi mobilyalar için bu seçenek çoğu zaman yetersiz kalır.",
+      },
+      {
+        heading: "Sahil hattındaki sitelerde randevu yoğunluğu",
+        body:
+          "Talebin yüksek olduğu Caddebostan'da randevu yoğunluğuna göre öncelikli planlama yapmak, özellikle hafta sonları beklemeden hizmet almanın anahtarıdır.",
+      },
+      {
+        heading: "Apartman ve site karışımı yapıda taşıma",
+        body:
+          "Hem eski apartmanlarda hem yeni sitelerde farklı kurallar geçerlidir; bina tipine göre doğru ekipman ve randevu saati seçmek süreci kolaylaştırır.",
+      },
+      {
+        heading: "Fazlalıkat ile Caddebostan'da hurda mobilya tahliyesi",
+        body:
+          "Caddebostan'ın sahil hattındaki yoğun apartman ve site yerleşimine uygun şekilde, mobilya ve eski eşyaları aynı gün randevu ile alıp doğru bertaraf noktalarına yönlendiriyoruz.",
+      },
+    ],
+  },
+  {
+    slug: "bostanci-cop-atim-ve-eski-esya-toplama-hizmeti",
+    title: "Bostancı Çöp Atım ve Eski Eşya Toplama Hizmeti",
+    excerpt:
+      "Bostancı'nın iskele ve E5 çevresindeki yoğun yerleşim dokusunda çöp atım ve eski eşya toplama sürecini anlatıyoruz.",
+    date: "21 Eki 2026",
+    category: "Mahalle Rehberi",
+    image: "https://images.unsplash.com/photo-1601467995997-ac1ae9a8fff4?auto=format&fit=crop&w=1000&q=80",
+    sections: [
+      {
+        heading: "Bostancı'nın ulaşım yoğunluğu eşya tahliyesini nasıl etkiler?",
+        body:
+          "Bostancı, hem İDO iskelesi hem de E5 bağlantısı nedeniyle gün içinde yoğun bir trafiğe sahiptir; bu da büyük araçla yapılacak taşımalarda doğru saat planlamasını kritik hale getirir.",
+      },
+      {
+        heading: "Yüksek katlı siteler ve eski apartmanların bir aradalığı",
+        body:
+          "Sahil şeridindeki yeni rezidanslar ile iç kesimlerdeki eski apartmanlar bir arada bulunduğundan, her binanın asansör ve park kurallarına göre ayrı planlama yapılması gerekir.",
+      },
+      {
+        heading: "Sabah erken saatlerin avantajı",
+        body:
+          "İskele çevresindeki yoğunluk öğleden sonra arttığından, sabah erken saatlerde planlanan randevular hem park hem de taşıma açısından daha hızlı sonuçlanır.",
+      },
+      {
+        heading: "Çöp ve eski eşya ayrımı",
+        body:
+          "Taşınma veya yenileme sırasında çıkan çöp ile hâlâ kullanılabilir eski eşyanın ayrı değerlendirilmesi, geri dönüşüm oranını artırır ve maliyeti netleştirir.",
+      },
+      {
+        heading: "Fazlalıkat ile Bostancı'da çöp ve eski eşya toplama",
+        body:
+          "Bostancı'nın yoğun ulaşım ve karma bina dokusuna uygun şekilde çalışıyor, çöp ve eski eşyalarınızı aynı gün randevu ile bulunduğu kattan alıyoruz.",
+      },
+    ],
+  },
+  {
+    slug: "etiler-eski-esya-toplama-hizmeti",
+    title: "Etiler Eski Eşya Toplama Hizmeti",
+    excerpt:
+      "Etiler'deki rezidans ve plaza yoğun bölgesinde eski eşya toplama sürecinin kurallara uygun nasıl yürütüldüğünü anlatıyoruz.",
+    date: "23 Eki 2026",
+    category: "Mahalle Rehberi",
+    image: "https://images.unsplash.com/photo-1707407087163-7ab35bca9ffc?auto=format&fit=crop&w=1000&q=80",
+    sections: [
+      {
+        heading: "Etiler'de eski eşya toplama neden farklı planlanır?",
+        body:
+          "Etiler, yüksek katlı rezidansları ve sıkı site yönetim kurallarıyla bilinir; bu nedenle eşya tahliyesi öncesinde yönetimden onay almak sürecin ilk adımıdır.",
+      },
+      {
+        heading: "Sıkı site kurallarına uygun, sessiz çalışma",
+        body:
+          "Rezidans sakinlerinin huzurunu bozmamak için taşıma saatleri genellikle belirli aralıklarla sınırlandırılır; bu kurallara uygun, sessiz ve hızlı çalışmak komşu şikayetlerinin önüne geçer.",
+      },
+      {
+        heading: "Yokuşlu sokaklarda araç erişimi",
+        body:
+          "Etiler'in yokuşlu ve dar sokaklarında büyük araçların manevrası zorlaşabilir; küçük araçla esnek planlama yapmak süreci kolaylaştırır.",
+      },
+      {
+        heading: "Ofis ve plaza taşımalarında deneyim",
+        body:
+          "Bölgedeki plaza yoğunluğu nedeniyle kurumsal eşya ve ofis malzemesi tahliyeleri de sık talep edilir; bu işler genellikle mesai saatleri dışında planlanır.",
+      },
+      {
+        heading: "Fazlalıkat ile Etiler'de eski eşya toplama",
+        body:
+          "Etiler'deki rezidans ve sitelerin sıkı kurallarına uygun olarak, komşulara rahatsızlık vermeden sessiz ve hızlı şekilde eski eşyalarınızı topluyoruz.",
+      },
+    ],
+  },
+  {
+    slug: "bebekte-eski-esya-nereye-atilir",
+    title: "Bebek'te Eski Eşya Nereye Atılır?",
+    excerpt:
+      "Bebek'in sahil şeridindeki villa ve butik apartmanlarında eski eşyanın doğru ve özenli şekilde nasıl tahliye edileceğini anlatıyoruz.",
+    date: "25 Eki 2026",
+    category: "Mahalle Rehberi",
+    image: "https://images.unsplash.com/photo-1555694746-edc80f35e53d?auto=format&fit=crop&w=1000&q=80",
+    sections: [
+      {
+        heading: "Bebek'te eski eşya atımı neden özel bir yaklaşım gerektirir?",
+        body:
+          "Bebek, hem tarihi villalara hem de butik apartmanlara ev sahipliği yapan, Boğaz manzaralı prestijli bir mahalledir; bu binalarda eşyaların özenli ve hasarsız taşınması büyük önem taşır.",
+      },
+      {
+        heading: "Dar sahil sokaklarında araç kısıtları",
+        body:
+          "Sahil şeridine paralel sokaklar dar ve bazı saatlerde araç trafiğine kapalı olabilir; bu nedenle küçük araçla esnek erişim planlamak gerekir.",
+      },
+      {
+        heading: "Villalarda bahçe ve iç mekân atığının birlikte tahliyesi",
+        body:
+          "Bebek'teki bahçeli villalarda iç mekân eşyalarıyla birlikte bahçe atıklarının da tek seferde alınması, ayrı ayrı randevu almaktan daha pratiktir.",
+      },
+      {
+        heading: "Butik apartmanlarda asansör ve kat sorunu",
+        body:
+          "Tarihi dokudaki bazı butik apartmanlarda asansör dar veya yoktur; bu binalarda deneyimli ekip ve doğru ekipmanla özenli taşıma şarttır.",
+      },
+      {
+        heading: "Fazlalıkat ile Bebek'te eski eşya tahliyesi",
+        body:
+          "Bebek'in sahil şeridindeki villa ve butik apartmanlarında, dar sokaklara rağmen özenli ve hasarsız taşıma sağlayarak eski eşyalarınızı aynı gün randevu ile alıyoruz.",
+      },
+    ],
+  },
+  {
+    slug: "ulus-villa-esya-tahliye-hizmeti",
+    title: "Ulus Villa Eşya Tahliye Hizmeti",
+    excerpt:
+      "Ulus'un geniş bahçeli villa dokusunda eşya tahliyesinin nasıl planlanması gerektiğini anlatıyoruz.",
+    date: "27 Eki 2026",
+    category: "Mahalle Rehberi",
+    image: "https://images.unsplash.com/photo-1699685431493-82d4a40c662e?auto=format&fit=crop&w=1000&q=80",
+    sections: [
+      {
+        heading: "Ulus'ta villa eşya tahliyesi neden farklıdır?",
+        body:
+          "Ulus, geniş bahçeli müstakil villalarıyla bilinen, Boğaz'a yakın yamaç bir mahalledir; bu tip yapılarda eşya hacmi standart bir daireye göre çok daha fazla olabilir.",
+      },
+      {
+        heading: "Geniş bahçeli evlerde iç mekân ve bahçe atığı",
+        body:
+          "Villalarda hem iç mekân mobilyaları hem de bahçe atıkları (budama artığı, eski bahçe mobilyası) bir arada bulunur; bunların tek seferde, aynı ekiple tahliye edilmesi zaman kazandırır.",
+      },
+      {
+        heading: "Sakin ve yokuşlu sokaklarda araç planlaması",
+        body:
+          "Ulus'un sakin ve yokuşlu sokaklarında geniş araç erişimi genellikle kolaydır, ancak randevu saatinin önceden netleştirilmesi park ve manevra açısından önemlidir.",
+      },
+      {
+        heading: "Miras veya el değiştiren villalarda toplu tahliye",
+        body:
+          "Miras kalan veya satış öncesi boşaltılan villalarda, çok sayıda eşyanın aynı anda tahliye edilmesi gerekebilir; bu büyük hacimli işler için planlı bir ekip organizasyonu şarttır.",
+      },
+      {
+        heading: "Fazlalıkat ile Ulus'ta villa eşya tahliyesi",
+        body:
+          "Ulus'un geniş bahçeli villa dokusuna uygun ekipmanla çalışıyor, iç mekân ve bahçe atıklarını birlikte, aynı gün randevu ile tahliye ediyoruz.",
+      },
+    ],
+  },
+  {
+    slug: "nisantasi-eski-esya-toplama-ve-ev-bosaltma-hizmeti",
+    title: "Nişantaşı Eski Eşya Toplama ve Ev Boşaltma Hizmeti",
+    excerpt:
+      "Nişantaşı'ndaki lüks rezidans ve butik apartmanlarda eski eşya toplama ve ev boşaltma sürecini anlatıyoruz.",
+    date: "29 Eki 2026",
+    category: "Mahalle Rehberi",
+    image: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=1000&q=80",
+    sections: [
+      {
+        heading: "Nişantaşı'nda eşya tahliyesi neden özenli planlanır?",
+        body:
+          "Nişantaşı, lüks rezidansları ve butik apartmanlarıyla İstanbul'un en prestijli alışveriş ve yaşam bölgelerinden biridir; bu binalarda hem güvenlik hem de görgü kuralları taşıma sürecini doğrudan etkiler.",
+      },
+      {
+        heading: "Dar tek yönlü sokaklarda park sorunu",
+        body:
+          "Mahallenin yoğun alışveriş trafiğine sahip dar ve çoğunlukla tek yönlü sokaklarında park yeri bulmak zordur; bu nedenle randevu saatinin trafiğin az olduğu saatlere göre planlanması önemlidir.",
+      },
+      {
+        heading: "Rezidans yönetimlerinin sıkı kuralları",
+        body:
+          "Çoğu rezidans, yük asansörü kullanım saatlerini ve taşıma izinlerini önceden talep eder; bu kurallara uygun çalışmak hem süreci hızlandırır hem de bina yönetimiyle sorun yaşanmasını önler.",
+      },
+      {
+        heading: "Butik apartmanlarda özenli taşıma ihtiyacı",
+        body:
+          "Tarihi dokudaki butik apartmanların bir kısmında dar merdiven ve küçük asansörler bulunur; bu binalarda deneyimli ekip ve doğru ekipmanla hasarsız taşıma yapılması gerekir.",
+      },
+      {
+        heading: "Fazlalıkat ile Nişantaşı'nda eşya toplama",
+        body:
+          "Nişantaşı'ndaki lüks rezidans ve butik apartmanlarda, planlı ekip yönlendirmesiyle süreci hızlı ve temiz tamamlayarak eski eşyalarınızı ve ev boşaltma ihtiyaçlarınızı karşılıyoruz.",
+      },
+    ],
+  },
 ];
-
-export function getBlogPostBySlug(slug: string): BlogPost | undefined {
-  return BLOG_POSTS.find((p) => p.slug === slug);
-}

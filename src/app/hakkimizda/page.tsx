@@ -30,6 +30,10 @@ const VALUES = [
     title: "Aynı Gün Çözüm",
     body: "Çoğu bölgede aynı gün veya ertesi gün randevu verir, acil taleplere WhatsApp üzerinden hızlı dönüş yaparız.",
   },
+  {
+    title: "Siz Taşımazsınız, Biz Tahliye Ederiz",
+    body: "Eşyaları kapıya veya kaldırıma çıkarmanız gerekmez; ekibimiz içeri girer, bulunduğu yerden alır ve kendi imkanlarıyla dışarı çıkarır.",
+  },
 ];
 
 export default function AboutPage() {

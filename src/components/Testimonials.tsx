@@ -1,7 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { TESTIMONIALS } from "@/data/content";
+import ReviewForm from "@/components/ReviewForm";
+import type { Review } from "@/lib/reviews-store";
 
 function Star() {
   return (
@@ -11,7 +12,7 @@ function Star() {
   );
 }
 
-export default function Testimonials() {
+export default function Testimonials({ reviews }: { reviews: Review[] }) {
   return (
     <section id="yorumlar" className="relative px-6 py-28">
       <div className="mx-auto max-w-7xl">
@@ -27,13 +28,13 @@ export default function Testimonials() {
         </div>
 
         <div className="mt-14 grid gap-6 sm:grid-cols-2">
-          {TESTIMONIALS.map((t, i) => (
+          {reviews.map((t, i) => (
             <motion.div
-              key={t.name}
+              key={t.id}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-60px" }}
-              transition={{ duration: 0.6, delay: i * 0.08, ease: [0.16, 1, 0.3, 1] }}
+              transition={{ duration: 0.6, delay: (i % 6) * 0.08, ease: [0.16, 1, 0.3, 1] }}
               className="rounded-3xl border border-line bg-background-elevated p-7"
             >
               <div className="flex gap-1">
@@ -55,6 +56,10 @@ export default function Testimonials() {
               </div>
             </motion.div>
           ))}
+        </div>
+
+        <div className="mt-10 max-w-2xl">
+          <ReviewForm />
         </div>
       </div>
     </section>

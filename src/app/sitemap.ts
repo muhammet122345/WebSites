@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { DISTRICTS, districtPath } from "@/data/districts";
-import { BLOG_POSTS, parsePostDate } from "@/data/blog-posts";
+import { parsePostDate } from "@/data/blog-posts";
+import { getAllBlogPosts } from "@/lib/blog-store";
 import { getComboRoutes } from "@/lib/combo-routes";
 
 const BASE_URL = "https://fazlalikat.com";
@@ -11,8 +12,9 @@ const BASE_URL = "https://fazlalikat.com";
 // instead of "now" on every build.
 const CONTENT_LAST_UPDATED = new Date("2026-06-29");
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date();
+  const blogPosts = await getAllBlogPosts();
 
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: BASE_URL, lastModified: now, changeFrequency: "weekly", priority: 1 },
@@ -33,7 +35,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  const blogRoutes: MetadataRoute.Sitemap = BLOG_POSTS.map((p) => {
+  const blogRoutes: MetadataRoute.Sitemap = blogPosts.map((p) => {
     const postDate = parsePostDate(p);
     return {
       url: `${BASE_URL}/blog/${p.slug}`,

@@ -3,6 +3,7 @@ import Script from "next/script";
 import { Bricolage_Grotesque, Inter } from "next/font/google";
 import SmoothScroll from "@/components/SmoothScroll";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import CallButton from "@/components/CallButton";
 import { getSiteConfig } from "@/lib/site-config";
 import { BRAND } from "@/data/content";
 import "./globals.css";
@@ -135,6 +136,7 @@ export default async function RootLayout({
         <SmoothScroll>
           {children}
           <WhatsAppButton />
+          <CallButton />
         </SmoothScroll>
         <div className="noise-overlay" />
       </body>

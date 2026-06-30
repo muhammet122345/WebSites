@@ -36,6 +36,13 @@ yarn-error.log*
 # vercel
 .vercel
 
+# local fallback storage for admin-editable blog posts/reviews
+# (used only when BLOB_READ_WRITE_TOKEN isn't set; production reads/writes
+# go through Vercel Blob instead). The code already ships seed defaults,
+# so these regenerated files don't need to be committed.
+/data/blog-posts.json
+/data/reviews.json
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

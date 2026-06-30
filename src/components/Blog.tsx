@@ -3,11 +3,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { BLOG_POSTS } from "@/data/blog-posts";
+import type { BlogPost } from "@/data/blog-posts";
 
-export default function Blog() {
-  const posts = BLOG_POSTS.slice(0, 3);
-
+export default function Blog({ posts }: { posts: BlogPost[] }) {
   return (
     <section id="blog" className="relative px-6 py-28">
       <div className="mx-auto max-w-7xl">

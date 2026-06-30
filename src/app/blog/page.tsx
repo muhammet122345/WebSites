@@ -4,21 +4,28 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
-import { BLOG_POSTS, type BlogPost } from "@/data/blog-posts";
+import type { BlogPost } from "@/data/blog-posts";
+import { getAllBlogPosts } from "@/lib/blog-store";
 import { breadcrumbSchema, blogCollectionSchema } from "@/lib/schema";
 
-export const metadata: Metadata = {
-  title: "Eşya Tahliyesi, Moloz Atımı ve Çöp Atım Rehberi İstanbul",
-  description: `İstanbul Avrupa Yakası'nda eşya tahliyesi, çöp atım, moloz/hafriyat atımı ve ev/ofis/depo boşaltma hakkında ${BLOG_POSTS.length} kapsamlı rehber. Beşiktaş, Şişli, Bağcılar, Esenyurt dahil 18 ilçeye özel bilgiler ve güncel fiyatlar.`,
-  alternates: { canonical: "/blog" },
-  openGraph: {
-    title: "Eşya Tahliyesi, Moloz Atımı ve Çöp Atım Rehberi İstanbul | Fazlalıkat",
-    description: `İstanbul Avrupa Yakası'nda eşya tahliyesi, çöp atım, moloz/hafriyat atımı ve ev/ofis/depo boşaltma hakkında ${BLOG_POSTS.length} kapsamlı rehber.`,
-  },
-};
+export const revalidate = 60;
+
+export async function generateMetadata(): Promise<Metadata> {
+  const posts = await getAllBlogPosts();
+  return {
+    title: "Eşya Tahliyesi, Moloz Atımı ve Çöp Atım Rehberi İstanbul",
+    description: `İstanbul Avrupa Yakası'nda eşya tahliyesi, çöp atım, moloz/hafriyat atımı ve ev/ofis/depo boşaltma hakkında ${posts.length} kapsamlı rehber. Beşiktaş, Şişli, Bağcılar, Esenyurt dahil 18 ilçeye özel bilgiler ve güncel fiyatlar.`,
+    alternates: { canonical: "/blog" },
+    openGraph: {
+      title: "Eşya Tahliyesi, Moloz Atımı ve Çöp Atım Rehberi İstanbul | Fazlalıkat",
+      description: `İstanbul Avrupa Yakası'nda eşya tahliyesi, çöp atım, moloz/hafriyat atımı ve ev/ofis/depo boşaltma hakkında ${posts.length} kapsamlı rehber.`,
+    },
+  };
+}
 
 const GROUPS: { label: string; anchor: string; categories: string[] }[] = [
   { label: "İlçe Rehberleri", anchor: "ilce-rehberleri", categories: ["Bölge Rehberi"] },
+  { label: "Mahalle Rehberleri", anchor: "mahalle-rehberleri", categories: ["Mahalle Rehberi"] },
   {
     label: "Hizmet ve Genel Rehberler",
     anchor: "hizmet-genel-rehberler",
@@ -64,7 +71,8 @@ function PostCard({ post, priority }: { post: BlogPost; priority: boolean }) {
   );
 }
 
-export default function BlogIndexPage() {
+export default async function BlogIndexPage() {
+  const allPosts = await getAllBlogPosts();
   let renderedCount = 0;
 
   return (
@@ -75,7 +83,7 @@ export default function BlogIndexPage() {
           { name: "Blog", url: "/blog" },
         ])}
       />
-      <JsonLd data={blogCollectionSchema(BLOG_POSTS)} />
+      <JsonLd data={blogCollectionSchema(allPosts)} />
       <Navbar />
       <main className="px-6 pb-28 pt-32">
         <div className="mx-auto max-w-7xl">
@@ -87,7 +95,7 @@ export default function BlogIndexPage() {
           </h1>
           <p className="mt-5 max-w-3xl text-base leading-relaxed text-muted">
             İstanbul Avrupa Yakası&apos;nda eşya tahliyesi, çöp atım, ev/ofis/depo boşaltma, moloz
-            atımı ve geri dönüşüm hakkında {BLOG_POSTS.length} kapsamlı rehber hazırladık.
+            atımı ve geri dönüşüm hakkında {allPosts.length} kapsamlı rehber hazırladık.
             Beşiktaş, Şişli, Bağcılar, Esenyurt dahil 18 ilçeye özel pratik bilgiler ve güncel
             fiyat rehberlerine aşağıdan ulaşabilirsiniz.
           </p>
@@ -105,7 +113,7 @@ export default function BlogIndexPage() {
           </nav>
 
           {GROUPS.map((group) => {
-            const posts = BLOG_POSTS.filter((p) => group.categories.includes(p.category));
+            const posts = allPosts.filter((p) => group.categories.includes(p.category));
             if (posts.length === 0) return null;
 
             return (
