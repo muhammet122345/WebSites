@@ -1,6 +1,7 @@
 import AdminHeader from "../AdminHeader";
 import DeleteButton from "../DeleteButton";
 import ErrorBanner from "../ErrorBanner";
+import SubmitButton from "../SubmitButton";
 import { getAllReviews, type Review } from "@/lib/reviews-store";
 import { approveReview, rejectReview, removeReview } from "./actions";
 
@@ -68,20 +69,14 @@ export default async function AdminReviewsPage({
             {pending.map((review) => (
               <ReviewCard key={review.id} review={review}>
                 <form action={approveReview.bind(null, review.id)}>
-                  <button
-                    type="submit"
-                    className="rounded-full bg-accent px-4 py-2 text-sm font-semibold text-[#06070a]"
-                  >
+                  <SubmitButton className="rounded-full bg-accent px-4 py-2 text-sm font-semibold text-[#06070a] disabled:opacity-50">
                     Onayla
-                  </button>
+                  </SubmitButton>
                 </form>
                 <form action={rejectReview.bind(null, review.id)}>
-                  <button
-                    type="submit"
-                    className="rounded-full border border-line px-4 py-2 text-sm text-muted hover:bg-white/5"
-                  >
+                  <SubmitButton className="rounded-full border border-line px-4 py-2 text-sm text-muted hover:bg-white/5 disabled:opacity-50">
                     Reddet
-                  </button>
+                  </SubmitButton>
                 </form>
               </ReviewCard>
             ))}
@@ -121,12 +116,9 @@ export default async function AdminReviewsPage({
               {rejected.map((review) => (
                 <ReviewCard key={review.id} review={review}>
                   <form action={approveReview.bind(null, review.id)}>
-                    <button
-                      type="submit"
-                      className="rounded-full border border-line px-4 py-2 text-sm text-muted hover:bg-white/5"
-                    >
+                    <SubmitButton className="rounded-full border border-line px-4 py-2 text-sm text-muted hover:bg-white/5 disabled:opacity-50">
                       Yayınla
-                    </button>
+                    </SubmitButton>
                   </form>
                   <form action={removeReview.bind(null, review.id)}>
                     <DeleteButton confirmMessage="Bu yorumu kalıcı olarak silmek istediğinizden emin misiniz?" />
