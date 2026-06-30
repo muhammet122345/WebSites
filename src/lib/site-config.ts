@@ -41,12 +41,12 @@ export const DEFAULT_SITE_CONFIG: SiteConfig = {
     accent2: "#f2b94d",
   },
   hero: {
-    badge: "Türkiye'nin Premium Tahliye Hizmeti",
+    badge: "İstanbul Anadolu & Avrupa Yakası Premium Tahliye Hizmeti",
     headlineLine1: "Fazlalıklarınızdan",
     headlineAccent: "tek bir günde",
     headlineSuffix: "kurtulun.",
     description:
-      "Ev, ofis, depo ve çatı katlarınızdaki fazlalıkları; sigortalı, profesyonel ekibimizle aynı gün tahliye ediyoruz. Şeffaf fiyat, çevre dostu bertaraf, kusursuz teslim.",
+      "Ev, ofis, depo ve çatı katlarınızdaki fazlalıkları İstanbul'un Anadolu ve Avrupa Yakası'nın tamamında, sigortalı profesyonel ekibimizle aynı gün tahliye ediyoruz. İlçe, kat ve eşya sayısına göre şeffaf fiyatlandırma, çevre dostu bertaraf, kusursuz teslim.",
     ctaPrimary: "Ücretsiz Fiyat Al",
     ctaSecondary: "Nasıl Çalışır?",
     stats: [
