@@ -41,16 +41,30 @@ export default function Hero({ content }: { content: HeroContent }) {
 
       <div className="relative z-10 mx-auto w-full max-w-7xl px-6">
         <div className="max-w-3xl">
-          <motion.div
-            variants={fadeUp}
-            custom={0}
-            initial="hidden"
-            animate="show"
-            className="mb-6 inline-flex items-center gap-2 rounded-full glass px-4 py-2 text-xs font-medium uppercase tracking-[0.2em] text-muted"
-          >
-            <span className="h-1.5 w-1.5 rounded-full bg-accent" />
-            {content.badge}
-          </motion.div>
+          <div className="mb-6 flex flex-wrap items-center gap-3">
+            <motion.div
+              variants={fadeUp}
+              custom={0}
+              initial="hidden"
+              animate="show"
+              className="inline-flex items-center gap-2 rounded-full glass px-4 py-2 text-xs font-medium uppercase tracking-[0.2em] text-muted"
+            >
+              <span className="h-1.5 w-1.5 rounded-full bg-accent" />
+              {content.badge}
+            </motion.div>
+            {content.badge2 && (
+              <motion.div
+                variants={fadeUp}
+                custom={0.5}
+                initial="hidden"
+                animate="show"
+                className="inline-flex items-center gap-2 rounded-full glass px-4 py-2 text-xs font-medium uppercase tracking-[0.2em] text-muted"
+              >
+                <span className="h-1.5 w-1.5 rounded-full bg-accent-2" />
+                {content.badge2}
+              </motion.div>
+            )}
+          </div>
 
           <motion.h1
             variants={slideUp}

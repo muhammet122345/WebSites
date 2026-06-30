@@ -26,6 +26,7 @@ export default function AdminForm({ config }: { config: SiteConfig }) {
 
         <div className="mt-6 grid gap-5 sm:grid-cols-2">
           <Field label="Üst Rozet Yazısı" name="badge" defaultValue={config.hero.badge} />
+          <Field label="Üst Rozet Yazısı 2" name="badge2" defaultValue={config.hero.badge2} />
           <Field label="Birincil Buton Yazısı" name="ctaPrimary" defaultValue={config.hero.ctaPrimary} />
           <Field label="Başlık - 1. Satır" name="headlineLine1" defaultValue={config.hero.headlineLine1} />
           <Field label="İkincil Buton Yazısı" name="ctaSecondary" defaultValue={config.hero.ctaSecondary} />

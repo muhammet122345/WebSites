@@ -27,6 +27,7 @@ export async function updateConfig(_prevState: SaveState, formData: FormData): P
       },
       hero: {
         badge: String(formData.get("badge") ?? current.hero.badge),
+        badge2: String(formData.get("badge2") ?? current.hero.badge2),
         headlineLine1: String(formData.get("headlineLine1") ?? current.hero.headlineLine1),
         headlineAccent: String(formData.get("headlineAccent") ?? current.hero.headlineAccent),
         headlineSuffix: String(formData.get("headlineSuffix") ?? current.hero.headlineSuffix),

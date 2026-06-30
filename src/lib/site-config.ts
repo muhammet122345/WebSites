@@ -17,6 +17,7 @@ export type HeroStat = {
 
 export type HeroContent = {
   badge: string;
+  badge2: string;
   headlineLine1: string;
   headlineAccent: string;
   headlineSuffix: string;
@@ -42,8 +43,9 @@ export const DEFAULT_SITE_CONFIG: SiteConfig = {
   },
   hero: {
     badge: "İstanbul Anadolu & Avrupa Yakası Premium Tahliye Hizmeti",
+    badge2: "Ücretli Eski Eşya Tahliye Hizmeti",
     headlineLine1: "Fazlalıklarınızdan",
-    headlineAccent: "tek bir günde",
+    headlineAccent: "bir tıkla",
     headlineSuffix: "kurtulun.",
     description:
       "Ev, ofis, depo ve çatı katlarınızdaki fazlalıkları İstanbul'un Anadolu ve Avrupa Yakası'nın tamamında, sigortalı profesyonel ekibimizle aynı gün tahliye ediyoruz. İlçe, kat ve eşya sayısına göre şeffaf fiyatlandırma, çevre dostu bertaraf, kusursuz teslim.",
