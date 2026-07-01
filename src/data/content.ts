@@ -146,8 +146,8 @@ export const GALLERY = [
     title: "Depo Boşaltma",
   },
   {
-    before: "/images/ofistemiz.jpg",
-    after: "/images/ofiskarisik.jpg",
+    before: "/images/blog/ofistemiz.png",
+    after: "/images/blog/ofiskirli.png",
     title: "Ofis Tahliyesi",
   },
 ];
