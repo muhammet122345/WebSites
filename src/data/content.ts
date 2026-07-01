@@ -134,8 +134,8 @@ export const STATS = [
 
 export const GALLERY = [
   {
-    before: "/images/dairekarisik.jpg",
-    after: "/images/dairetemiz.jpg",
+    before: "/images/dairetemiz.jpg",
+    after: "/images/dairekarisik.jpg",
     title: "Daire Atık Eşya Tahliyesi",
   },
   {
