@@ -84,7 +84,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Buzdolabı, çamaşır makinesi ve diğer beyaz eşyaların çevreye zarar vermeden, yönetmeliğe uygun şekilde nasıl bertaraf edileceğini anlatıyoruz.",
     date: "06 Haz 2026",
     category: "Rehber",
-    image: "/images/blog/eskicamasirmakinasi.png",
+    image: "/images/blog/eskibeyazesyavebuzdolabinereyeatilir.png",
     sections: [
       {
         heading: "Beyaz eşyalar neden normal çöple atılamaz?",
@@ -300,7 +300,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Depozitonuzu sorunsuz geri almak için kiracı çıkışında yapılması gereken temizlik ve tahliye adımlarını derledik.",
     date: "27 Haz 2026",
     category: "Taşınma",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/kiracicikisindatemizlik.png",
     sections: [
       {
         heading: "Sözleşmedeki teslim koşullarını kontrol edin",
@@ -372,7 +372,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Kiracınız çıkarken eşyalarını bırakıp gittiyse hukuki ve pratik olarak izlemeniz gereken adımları anlatıyoruz.",
     date: "02 Tem 2026",
     category: "Rehber",
-    image: "/images/blog/eskiesyaattirmak.png",
+    image: "/images/blog/kiraciesyabirakipgitti.png",
     sections: [
       {
         heading: "Önce durumu belgeleyin",
@@ -408,7 +408,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Belediye büyük atık hattı randevusu uzadığında veya eşyanızı kabul etmediğinde alternatif çözümleri anlatıyoruz.",
     date: "04 Tem 2026",
     category: "Rehber",
-    image: "/images/blog/eskiesyaattirmak.png",
+    image: "/images/blog/belediye.png",
     sections: [
       {
         heading: "Belediye neden bazı eşyaları almayabilir?",
@@ -480,7 +480,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Eski CRT veya LCD televizyonların güvenli ve yasal şekilde nasıl bertaraf edileceğini anlatıyoruz.",
     date: "08 Tem 2026",
     category: "Rehber",
-    image: "/images/blog/eskicamasirmakinasi.png",
+    image: "/images/blog/eskitvnereyeatilir.png",
     sections: [
       {
         heading: "Televizyonlar neden özel atık sayılır?",
@@ -732,7 +732,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Miras, satış veya kiralama öncesi bir evi baştan sona boşaltmak için izlenecek adımları ve dikkat edilmesi gereken noktaları derledik.",
     date: "23 Tem 2026",
     category: "Rehber",
-    image: "/images/blog/evselatik.png",
+    image: "/images/blog/kompleevbosatlmarehberi.png",
     sections: [
       {
         heading: "Komple ev boşaltma ne zaman gerekir?",
@@ -876,7 +876,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "İstanbul genelinde atık eşya toplama sürecinin nasıl planlandığını, randevu ve taşıma adımlarını anlatıyoruz.",
     date: "31 Tem 2026",
     category: "Rehber",
-    image: "/images/blog/evselatik.png",
+    image: "/images/blog/istanbuldaatikesyatoplamanasılisler.png",
     sections: [
       {
         heading: "Atık eşya toplama hizmeti kimler için uygundur?",
@@ -1488,7 +1488,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Esenyurt'un hızla büyüyen ve yüksek katlı site dokusunda eski eşya attırma sürecini anlatıyoruz.",
     date: "03 Eyl 2026",
     category: "Bölge Rehberi",
-    image: "/images/blog/eskiesyaattirmak.png",
+    image: "/images/blog/esenyurteskiesya.png",
     sections: [
       {
         heading: "Hızla büyüyen bir ilçenin getirdiği yoğunluk",

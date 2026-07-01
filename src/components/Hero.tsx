@@ -70,7 +70,7 @@ export default function Hero({ content }: { content: HeroContent }) {
             variants={slideUp}
             initial="hidden"
             animate="show"
-            className="font-display text-5xl font-semibold leading-[1.05] tracking-tight sm:text-6xl lg:text-7xl"
+            className="font-display text-4xl font-semibold leading-[1.05] tracking-tight sm:text-5xl lg:text-7xl pr-6 sm:pr-0"
           >
             {content.headlineLine1}
             <br />
