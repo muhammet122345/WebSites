@@ -52,14 +52,14 @@ function PostCard({ post, priority, hideImage }: { post: BlogPost; priority: boo
       className="group overflow-hidden rounded-3xl border border-line bg-background-elevated"
     >
       {!hideImage && (
-        <div className="relative h-48 w-full overflow-hidden">
+        <div className="relative aspect-[16/9] w-full overflow-hidden">
           <Image
             src={post.image}
             alt={post.title}
             fill
             sizes="(max-width: 768px) 100vw, 400px"
             priority={priority}
-            className="object-cover transition-transform duration-700 group-hover:scale-110"
+            className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
           />
         </div>
       )}
