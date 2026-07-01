@@ -36,13 +36,13 @@ function ServiceCard({ service, index }: { service: (typeof SERVICES)[number]; i
       style={{ rotateX, rotateY, transformPerspective: 900 }}
       className="group relative overflow-hidden rounded-3xl border border-line bg-background-elevated"
     >
-      <div className="relative h-48 w-full overflow-hidden">
+      <div className="relative aspect-[16/9] w-full overflow-hidden">
         <Image
           src={service.image}
           alt={service.title}
           fill
           sizes="(max-width: 768px) 100vw, 400px"
-          className="object-cover transition-transform duration-700 group-hover:scale-110"
+          className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background-elevated via-background-elevated/20 to-transparent" />
       </div>
