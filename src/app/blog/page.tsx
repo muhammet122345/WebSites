@@ -23,7 +23,7 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-const GROUPS: { label: string; anchor: string; categories: string[] }[] = [
+const GROUPS: { label: string; anchor: string; categories: string[]; hideImage?: boolean }[] = [
   { label: "İlçe Rehberleri", anchor: "ilce-rehberleri", categories: ["Bölge Rehberi"] },
   { label: "Mahalle Rehberleri", anchor: "mahalle-rehberleri", categories: ["Mahalle Rehberi"] },
   {
@@ -35,6 +35,7 @@ const GROUPS: { label: string; anchor: string; categories: string[] }[] = [
     label: "Moloz ve Hafriyat Rehberleri",
     anchor: "moloz-hafriyat-rehberleri",
     categories: ["Moloz"],
+    hideImage: true,
   },
   {
     label: "Fiyatlandırma ve Karşılaştırmalar",
@@ -43,22 +44,24 @@ const GROUPS: { label: string; anchor: string; categories: string[] }[] = [
   },
 ];
 
-function PostCard({ post, priority }: { post: BlogPost; priority: boolean }) {
+function PostCard({ post, priority, hideImage }: { post: BlogPost; priority: boolean; hideImage?: boolean }) {
   return (
     <Link
       href={`/blog/${post.slug}`}
       className="group overflow-hidden rounded-3xl border border-line bg-background-elevated"
     >
-      <div className="relative h-48 w-full overflow-hidden">
-        <Image
-          src={post.image}
-          alt={post.title}
-          fill
-          sizes="(max-width: 768px) 100vw, 400px"
-          priority={priority}
-          className="object-cover transition-transform duration-700 group-hover:scale-110"
-        />
-      </div>
+      {!hideImage && (
+        <div className="relative h-48 w-full overflow-hidden">
+          <Image
+            src={post.image}
+            alt={post.title}
+            fill
+            sizes="(max-width: 768px) 100vw, 400px"
+            priority={priority}
+            className="object-cover transition-transform duration-700 group-hover:scale-110"
+          />
+        </div>
+      )}
       <div className="p-6">
         <div className="flex items-center gap-3 text-xs text-muted">
           <span className="rounded-full bg-accent/10 px-3 py-1 text-accent">{post.category}</span>
@@ -125,7 +128,7 @@ export default async function BlogIndexPage() {
                   {posts.map((post) => {
                     const priority = renderedCount < 3;
                     renderedCount += 1;
-                    return <PostCard key={post.slug} post={post} priority={priority} />;
+                    return <PostCard key={post.slug} post={post} priority={priority} hideImage={group.hideImage} />;
                   })}
                 </div>
               </section>
