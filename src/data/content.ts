@@ -29,7 +29,7 @@ export const SERVICES = [
     title: "Depo & Çatı Katı Temizliği",
     description:
       "Yıllardır birikmiş kutular, eski mobilyalar ve kullanılmayan eşyalardan kurtulup alanınızı yeniden kullanılabilir hale getiriyoruz.",
-    image: "/images/blog/catikati.jpeg",
+    image: "/images/blog/depocatikatitemizlikhizmeti.png",
     icon: "warehouse",
   },
   {
@@ -43,7 +43,7 @@ export const SERVICES = [
     title: "İnşaat Molozu Atımı",
     description:
       "Tadilat ve inşaat sonrası moloz, kalıp ve atık malzemeleri çevre dostu yöntemlerle alanınızdan uzaklaştırıyoruz.",
-    image: "/images/blog/moloz.png",
+    image: "/images/blog/insaatmolozatimi.png",
     icon: "construction",
   },
   {
@@ -57,7 +57,7 @@ export const SERVICES = [
     title: "Acil Çöp & Hurda Atımı",
     description:
       "Plansız ortaya çıkan büyük atıkları aynı gün, tek seferde ve şehir yönetmeliklerine uygun şekilde bertaraf ediyoruz.",
-    image: "/images/blog/evdenzopatim.png",
+    image: "/images/blog/acilcopalim.png",
     icon: "truck",
   },
   {
@@ -71,14 +71,14 @@ export const SERVICES = [
     title: "Kiracı Çıkışı Temizliği",
     description:
       "Kira süresi sonunda daireyi teslim öncesi eksiksiz boşaltıp temizleyerek depozito sürecinizi kolaylaştırıyoruz.",
-    image: "/images/blog/kiracicikisindatemizlik.png",
+    image: "/images/blog/kiracicikistemizlikyeni.png",
     icon: "home",
   },
   {
     title: "Mobilya Söküm & Tahliyesi",
     description:
       "Büyük mobilyaları yerinde söküyor, bulunduğu kattan kendi ekibimizle alıp güvenle tahliye ediyoruz; siz hiçbir şeyi taşımıyorsunuz.",
-    image: "/images/blog/mobilyatmahizmeti.png",
+    image: "/images/blog/mobilyasokumvetahliye.png",
     icon: "truck",
   },
   {
@@ -92,14 +92,14 @@ export const SERVICES = [
     title: "Mağaza & Dükkan Boşaltma",
     description:
       "Kapanış, taşınma veya yenileme öncesi mağaza ve dükkanınızı raflarına kadar hızlıca boşaltıyoruz.",
-    image: "/images/blog/bodrum.png",
+    image: "/images/blog/magazavedukkanbosaltma.png",
     icon: "office",
   },
   {
     title: "Fabrika & Depo Tahliyesi",
     description:
       "Endüstriyel tesis ve depolardaki ekipman, palet ve atık malzemeleri profesyonel ekiplerle güvenle tahliye ediyoruz.",
-    image: "/images/blog/esenyurteskiesya.png",
+    image: "/images/blog/fabrikavedepotahliyesi.png",
     icon: "warehouse",
   },
 ];
