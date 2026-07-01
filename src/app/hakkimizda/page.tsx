@@ -89,6 +89,11 @@ export default function AboutPage() {
                 </a>
               </li>
               <li>
+                <a href={`tel:${BRAND.phoneHref2}`} className="hover:text-foreground">
+                  {BRAND.phone2}
+                </a>
+              </li>
+              <li>
                 <a href={`mailto:${BRAND.email}`} className="hover:text-foreground">
                   {BRAND.email}
                 </a>

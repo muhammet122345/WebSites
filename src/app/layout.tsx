@@ -66,7 +66,7 @@ const localBusinessSchema = {
   "@type": "MovingCompany",
   name: BRAND.name,
   url: SITE_URL,
-  telephone: BRAND.phoneHref,
+  telephone: [BRAND.phoneHref, BRAND.phoneHref2],
   email: BRAND.email,
   address: {
     "@type": "PostalAddress",

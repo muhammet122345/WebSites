@@ -43,6 +43,12 @@ export default function CTA() {
             >
               {BRAND.phone}
             </a>
+            <a
+              href={`tel:${BRAND.phoneHref2}`}
+              className="rounded-full border border-line px-8 py-4 text-sm font-medium text-foreground transition-colors hover:bg-white/5"
+            >
+              {BRAND.phone2}
+            </a>
           </div>
         </motion.div>
       </div>

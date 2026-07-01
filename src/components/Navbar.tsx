@@ -47,12 +47,20 @@ export default function Navbar() {
         </nav>
 
         <div className="hidden items-center gap-3 lg:flex">
-          <a
-            href={`tel:${BRAND.phoneHref}`}
-            className="text-sm font-medium text-foreground/90 hover:text-accent"
-          >
-            {BRAND.phone}
-          </a>
+          <div className="flex flex-col items-end gap-0.5">
+            <a
+              href={`tel:${BRAND.phoneHref}`}
+              className="text-sm font-medium text-foreground/90 hover:text-accent"
+            >
+              {BRAND.phone}
+            </a>
+            <a
+              href={`tel:${BRAND.phoneHref2}`}
+              className="text-xs text-muted hover:text-accent"
+            >
+              {BRAND.phone2}
+            </a>
+          </div>
           <a
             href={`https://wa.me/${BRAND.whatsapp}`}
             target="_blank"
@@ -95,6 +103,20 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
+          <a
+            href={`tel:${BRAND.phoneHref}`}
+            onClick={() => setOpen(false)}
+            className="rounded-2xl px-4 py-3 text-sm text-foreground/90 hover:bg-white/5"
+          >
+            {BRAND.phone}
+          </a>
+          <a
+            href={`tel:${BRAND.phoneHref2}`}
+            onClick={() => setOpen(false)}
+            className="rounded-2xl px-4 py-3 text-sm text-foreground/90 hover:bg-white/5"
+          >
+            {BRAND.phone2}
+          </a>
           <a
             href={`https://wa.me/${BRAND.whatsapp}`}
             className="mt-2 rounded-2xl bg-accent px-4 py-3 text-center font-display text-sm font-semibold text-[#06070a]"

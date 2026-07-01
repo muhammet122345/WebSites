@@ -2,6 +2,8 @@ export const BRAND = {
   name: "Fazlalıkat",
   phone: "+90 532 267 14 05",
   phoneHref: "+905322671405",
+  phone2: "+90 531 730 04 83",
+  phoneHref2: "+905317300483",
   whatsapp: "905322671405",
   email: "iletisim@fazlalikat.com",
   address: "Hamidiye Mahallesi, Asil Sokak No:12, Sultanbeyli / İstanbul",
