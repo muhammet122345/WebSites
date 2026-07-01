@@ -71,7 +71,7 @@ body {
 
 .glass {
   background: rgba(245, 246, 243, 0.04);
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(40px);
   border: 1px solid var(--line);
 }
 

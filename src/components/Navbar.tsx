@@ -56,7 +56,7 @@ export default function Navbar() {
             </a>
             <a
               href={`tel:${BRAND.phoneHref2}`}
-              className="text-xs text-muted hover:text-accent"
+              className="text-sm font-medium text-foreground/90 hover:text-accent"
             >
               {BRAND.phone2}
             </a>
