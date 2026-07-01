@@ -134,9 +134,9 @@ export const STATS = [
 
 export const GALLERY = [
   {
-    before: "/images/catitemiz.jpg",
-    after: "/images/catikarisik.jpg",
-    title: "Çatı Katı Dönüşümü",
+    before: "/images/dairekarisik.jpg",
+    after: "/images/dairetemiz.jpg",
+    title: "Daire Atık Eşya Tahliyesi",
   },
   {
     before: "/images/depotemiz.jpg",
