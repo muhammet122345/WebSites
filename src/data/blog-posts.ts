@@ -48,7 +48,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Eski koltuk takımınızdan kurtulmanın belediye, bağış ve kapıdan alım dahil tüm yasal ve pratik yollarını anlatıyoruz.",
     date: "02 Haz 2026",
     category: "Rehber",
-    image: "https://images.unsplash.com/photo-1555694746-edc80f35e53d?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/eskikoltukrehber.png",
     sections: [
       {
         heading: "Eski koltuğu sokağa atmak neden risklidir?",
@@ -84,7 +84,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Buzdolabı, çamaşır makinesi ve diğer beyaz eşyaların çevreye zarar vermeden, yönetmeliğe uygun şekilde nasıl bertaraf edileceğini anlatıyoruz.",
     date: "06 Haz 2026",
     category: "Rehber",
-    image: "https://images.unsplash.com/photo-1699685431493-82d4a40c662e?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/eskicamasirmakinasi.png",
     sections: [
       {
         heading: "Beyaz eşyalar neden normal çöple atılamaz?",
@@ -156,7 +156,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "İnşaat ve tadilat sonrası moloz atımında yasal süreç, izinler ve doğru bertaraf yöntemleri hakkında bilmeniz gerekenler.",
     date: "14 Haz 2026",
     category: "Rehber",
-    image: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/moloz.png",
     sections: [
       {
         heading: "Moloz neden normal çöp konteynerine atılamaz?",
@@ -192,7 +192,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Taşınma stresini azaltacak, hiçbir adımı atlamamanız için hazırladığımız adım adım kontrol listesi.",
     date: "18 Haz 2026",
     category: "Taşınma",
-    image: "https://images.unsplash.com/photo-1714647211902-bb711d643a17?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/yapilacaklarlistes.png",
     sections: [
       {
         heading: "4 hafta önce: ayıklama ve elden çıkarma",
@@ -228,7 +228,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "İş sürekliliğini bozmadan ofis taşımayı planlamak için adım adım hazırladığımız pratik kontrol listesi.",
     date: "21 Haz 2026",
     category: "Taşınma",
-    image: "https://images.unsplash.com/photo-1707407087163-7ab35bca9ffc?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/ofisyapilacaklarlistesi.png",
     sections: [
       {
         heading: "Envanter çıkarma ve demirbaş kontrolü",
@@ -336,7 +336,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Eski eşyalarınızdan kurtulurken hurdacı ile profesyonel tahliye hizmeti arasındaki farkları karşılaştırdık.",
     date: "30 Haz 2026",
     category: "Karşılaştırma",
-    image: "https://images.unsplash.com/photo-1601467995997-ac1ae9a8fff4?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/eskiesyaattirmak.png",
     sections: [
       {
         heading: "Hurdacılar nasıl çalışır?",
@@ -372,7 +372,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Kiracınız çıkarken eşyalarını bırakıp gittiyse hukuki ve pratik olarak izlemeniz gereken adımları anlatıyoruz.",
     date: "02 Tem 2026",
     category: "Rehber",
-    image: "https://images.unsplash.com/photo-1663625318264-695d2d04f11a?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/eskiesyaattirmak.png",
     sections: [
       {
         heading: "Önce durumu belgeleyin",
@@ -408,7 +408,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Belediye büyük atık hattı randevusu uzadığında veya eşyanızı kabul etmediğinde alternatif çözümleri anlatıyoruz.",
     date: "04 Tem 2026",
     category: "Rehber",
-    image: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/eskiesyaattirmak.png",
     sections: [
       {
         heading: "Belediye neden bazı eşyaları almayabilir?",
@@ -444,7 +444,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Eski eşyalardan kurtulma sürecinin ne kadar sürdüğünü ve nelere dikkat etmeniz gerektiğini anlatıyoruz.",
     date: "06 Tem 2026",
     category: "Rehber",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/eskiesyaattirmak.png",
     sections: [
       {
         heading: "Evet, her eşya için bir çözüm var",
@@ -480,7 +480,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Eski CRT veya LCD televizyonların güvenli ve yasal şekilde nasıl bertaraf edileceğini anlatıyoruz.",
     date: "08 Tem 2026",
     category: "Rehber",
-    image: "https://images.unsplash.com/photo-1681994328948-494b8af8eb2a?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/eskicamasirmakinasi.png",
     sections: [
       {
         heading: "Televizyonlar neden özel atık sayılır?",
@@ -516,7 +516,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Büyük ahşap dolap ve gardıropları sökme, taşıma ve bertaraf etme sürecinde dikkat edilmesi gerekenleri anlatıyoruz.",
     date: "10 Tem 2026",
     category: "Rehber",
-    image: "https://images.unsplash.com/photo-1764756896400-54b2aa9c216f?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/mobilyatmahizmeti.png",
     sections: [
       {
         heading: "Neden dolap/gardırop taşıma zordur?",
@@ -552,7 +552,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Eski yatak ve bazaların hijyen kurallarına uygun, yasal ve pratik şekilde nasıl bertaraf edileceğini anlatıyoruz.",
     date: "13 Tem 2026",
     category: "Rehber",
-    image: "https://images.unsplash.com/photo-1555694746-edc80f35e53d?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/eskiyatak.png",
     sections: [
       {
         heading: "Eski yatak neden sıradan bir mobilye gibi atılamaz?",
@@ -588,7 +588,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Eski çamaşır makinesinin AEEE kapsamında nasıl ve nereye teslim edilmesi gerektiğini, dikkat edilmesi gereken noktaları anlatıyoruz.",
     date: "15 Tem 2026",
     category: "Rehber",
-    image: "https://images.unsplash.com/photo-1699685431493-82d4a40c662e?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/eskicamasirmakinasi.png",
     sections: [
       {
         heading: "Çamaşır makinesi neden özel atık sınıfındadır?",
@@ -624,7 +624,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Yıllarca birikmiş bodrum ve depo eşyalarından kurtulmak için izlenecek pratik adımları ve dikkat edilmesi gereken noktaları anlatıyoruz.",
     date: "17 Tem 2026",
     category: "Rehber",
-    image: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/bodrum.png",
     sections: [
       {
         heading: "Bodrum ve depolar neden zamanla doluşur?",
@@ -660,7 +660,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Çatı katında biriken eski eşya ve molozların güvenli şekilde nasıl temizleneceğini, sürecin nasıl işlediğini anlatıyoruz.",
     date: "19 Tem 2026",
     category: "Rehber",
-    image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/catikati.jpeg",
     sections: [
       {
         heading: "Çatı katları neden farklı bir temizlik gerektirir?",
@@ -696,7 +696,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Evsel katı atık kapsamına giren eşyaları ve büyükşehir yönetmeliğine uygun şekilde nasıl tahliye edileceğini anlatıyoruz.",
     date: "21 Tem 2026",
     category: "Rehber",
-    image: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/evselatik.png",
     sections: [
       {
         heading: "Evsel katı atık nedir, neyi kapsar?",
@@ -732,7 +732,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Miras, satış veya kiralama öncesi bir evi baştan sona boşaltmak için izlenecek adımları ve dikkat edilmesi gereken noktaları derledik.",
     date: "23 Tem 2026",
     category: "Rehber",
-    image: "https://images.unsplash.com/photo-1663625318264-695d2d04f11a?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/evselatik.png",
     sections: [
       {
         heading: "Komple ev boşaltma ne zaman gerekir?",
@@ -768,7 +768,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Koltuk, dolap ve yatak gibi büyük mobilyaları evden çıkarma sürecinin nasıl işlediğini ve nelere dikkat edilmesi gerektiğini anlatıyoruz.",
     date: "25 Tem 2026",
     category: "Rehber",
-    image: "https://images.unsplash.com/photo-1764756896400-54b2aa9c216f?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/mobilyatmahizmeti.png",
     sections: [
       {
         heading: "Mobilya atma hizmeti tam olarak neyi kapsar?",
@@ -804,7 +804,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Evden çöp attırma hizmetinin standart belediye toplama hizmetinden farkını ve hangi durumlarda tercih edilmesi gerektiğini anlatıyoruz.",
     date: "27 Tem 2026",
     category: "Rehber",
-    image: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/evdenzopatim.png",
     sections: [
       {
         heading: "Standart çöp toplama yetersiz kaldığında",
@@ -840,7 +840,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Koltuktan beyaz eşyaya, kitaptan halıya kadar farklı türde ev eşyalarının doğru bertaraf yollarını tek bir rehberde topladık.",
     date: "29 Tem 2026",
     category: "Rehber",
-    image: "https://images.unsplash.com/photo-1714647211902-bb711d643a17?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/eskiesyaattirmak.png",
     sections: [
       {
         heading: "Her eşya türü için farklı bir yol vardır",
@@ -876,7 +876,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "İstanbul genelinde atık eşya toplama sürecinin nasıl planlandığını, randevu ve taşıma adımlarını anlatıyoruz.",
     date: "31 Tem 2026",
     category: "Rehber",
-    image: "https://images.unsplash.com/photo-1601467995997-ac1ae9a8fff4?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/evselatik.png",
     sections: [
       {
         heading: "Atık eşya toplama hizmeti kimler için uygundur?",
@@ -948,7 +948,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "İstanbul'da profesyonel çöp atım hizmetinin işleyişini, belediye hizmetinden farkını ve süreç adımlarını anlatıyoruz.",
     date: "04 Ağu 2026",
     category: "Rehber",
-    image: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/evdenzopatim.png",
     sections: [
       {
         heading: "Belediye hizmeti ile profesyonel hizmet arasındaki fark",
@@ -984,7 +984,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Kullanılmayan ofis mobilyası, elektronik ve evrak gibi eşyaların İstanbul'da güvenli şekilde nasıl bertaraf edileceğini anlatıyoruz.",
     date: "06 Ağu 2026",
     category: "Rehber",
-    image: "https://images.unsplash.com/photo-1707407087163-7ab35bca9ffc?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/ofisyapilacaklarlistesi.png",
     sections: [
       {
         heading: "Ofislerde hangi eşyalar atılmaya hazır birikir?",
@@ -1020,7 +1020,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "İstanbul'da hurda mobilya alan kişi ve firmalarla çalışırken dikkat edilmesi gereken noktaları ve profesyonel alternatifi anlatıyoruz.",
     date: "08 Ağu 2026",
     category: "Karşılaştırma",
-    image: "https://images.unsplash.com/photo-1601467995997-ac1ae9a8fff4?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/mobilyatmahizmeti.png",
     sections: [
       {
         heading: "Hurda mobilya alanlar kimlerdir?",
@@ -1056,7 +1056,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Beşiktaş'ın dar sokakları ve sahil şeridindeki eski binalarda eski eşya tahliyesinin nasıl yapıldığını anlatıyoruz.",
     date: "10 Ağu 2026",
     category: "Bölge Rehberi",
-    image: "https://images.unsplash.com/photo-1555694746-edc80f35e53d?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/besiktaseskiesya.png",
     sections: [
       {
         heading: "Beşiktaş'ta eşya tahliyesini zorlaştıran ne?",
@@ -1092,7 +1092,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Bakırköy'deki eski apartmanlarda hurda mobilya tahliyesinin nasıl planlanması gerektiğini anlatıyoruz.",
     date: "12 Ağu 2026",
     category: "Bölge Rehberi",
-    image: "https://images.unsplash.com/photo-1601467995997-ac1ae9a8fff4?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/bakirköykamyon.jpg",
     sections: [
       {
         heading: "Bakırköy'ün eski yapı stoku",
@@ -1128,7 +1128,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Esenler'in yoğun toplu konut dokusunda çöp ve eski eşya atımının nasıl planlanması gerektiğini anlatıyoruz.",
     date: "14 Ağu 2026",
     category: "Bölge Rehberi",
-    image: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/esenlercopatim.png",
     sections: [
       {
         heading: "Esenler'in yoğun toplu konut yapısı",
@@ -1164,7 +1164,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Sultangazi'de hızla değişen kentsel dokuda hurda mobilya tahliyesinin nasıl işlediğini anlatıyoruz.",
     date: "16 Ağu 2026",
     category: "Bölge Rehberi",
-    image: "https://images.unsplash.com/photo-1699685431493-82d4a40c662e?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/sultangazi.png",
     sections: [
       {
         heading: "Hızla kentleşen bir ilçe",
@@ -1200,7 +1200,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Güngören'in dar sokaklı yerleşim dokusunda eski eşya attırma sürecinin nasıl planlanması gerektiğini anlatıyoruz.",
     date: "18 Ağu 2026",
     category: "Bölge Rehberi",
-    image: "https://images.unsplash.com/photo-1764756896400-54b2aa9c216f?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/gungoren.png",
     sections: [
       {
         heading: "Güngören'in yerleşim dokusu",
@@ -1236,7 +1236,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Şişli'deki rezidans ve eski apartman karışımı yapıda eski eşya toplama ve ev boşaltma sürecini anlatıyoruz.",
     date: "20 Ağu 2026",
     category: "Bölge Rehberi",
-    image: "https://images.unsplash.com/photo-1707407087163-7ab35bca9ffc?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/sisli.png",
     sections: [
       {
         heading: "Eski apartman ve yeni rezidans bir arada",
@@ -1272,7 +1272,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Eyüpsultan'ın tarihi ve yamaç yerleşim dokusunda eski eşya toplama sürecinin nasıl planlanması gerektiğini anlatıyoruz.",
     date: "22 Ağu 2026",
     category: "Bölge Rehberi",
-    image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/eyupsultan.png",
     sections: [
       {
         heading: "Yamaç yerleşim ve eğimli sokaklar",
@@ -1308,7 +1308,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Gaziosmanpaşa'nın yoğun nüfuslu ve çok katlı eski bina dokusunda eşya attırma sürecini anlatıyoruz.",
     date: "24 Ağu 2026",
     category: "Bölge Rehberi",
-    image: "https://images.unsplash.com/photo-1714647211902-bb711d643a17?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/gaziosmanpasa.png",
     sections: [
       {
         heading: "Yoğun nüfuslu ilçenin getirdiği talep yoğunluğu",
@@ -1344,7 +1344,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Kağıthane'nin vadi yerleşimi ve kentsel dönüşüm bölgelerinde eski eşya tahliyesinin nasıl planlanması gerektiğini anlatıyoruz.",
     date: "26 Ağu 2026",
     category: "Bölge Rehberi",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/kagıthane.png",
     sections: [
       {
         heading: "Vadi yerleşiminin getirdiği erişim farkları",
@@ -1380,7 +1380,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Bahçelievler'in yoğun apartmanlaşmış dokusunda eski eşya tahliyesinin nasıl planlanması gerektiğini anlatıyoruz.",
     date: "28 Ağu 2026",
     category: "Bölge Rehberi",
-    image: "https://images.unsplash.com/photo-1681994328948-494b8af8eb2a?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/bahcelievler.png",
     sections: [
       {
         heading: "Merkezi konumun getirdiği yoğun apartmanlaşma",
@@ -1416,7 +1416,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Tarihi yarımadanın dar ve eğimli sokaklarında eski eşya tahliyesinin nasıl yapıldığını anlatıyoruz.",
     date: "30 Ağu 2026",
     category: "Bölge Rehberi",
-    image: "https://images.unsplash.com/photo-1555694746-edc80f35e53d?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/fatih.png",
     sections: [
       {
         heading: "Tarihi yarımadanın özel yapı dokusu",
@@ -1452,7 +1452,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Zeytinburnu'nun sahil ve sanayi karışık dokusunda eski eşya tahliyesinin nasıl planlanması gerektiğini anlatıyoruz.",
     date: "01 Eyl 2026",
     category: "Bölge Rehberi",
-    image: "https://images.unsplash.com/photo-1699685431493-82d4a40c662e?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/zeytinburnu.png",
     sections: [
       {
         heading: "Sahil ve sanayi karışık yerleşim",
@@ -1488,7 +1488,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Esenyurt'un hızla büyüyen ve yüksek katlı site dokusunda eski eşya attırma sürecini anlatıyoruz.",
     date: "03 Eyl 2026",
     category: "Bölge Rehberi",
-    image: "https://images.unsplash.com/photo-1663625318264-695d2d04f11a?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/eskiesyaattirmak.png",
     sections: [
       {
         heading: "Hızla büyüyen bir ilçenin getirdiği yoğunluk",
@@ -1524,7 +1524,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Küçükçekmece'nin göl kıyısı ve geniş ilçe dokusunda eski eşya attırma sürecinin nasıl planlanması gerektiğini anlatıyoruz.",
     date: "05 Eyl 2026",
     category: "Bölge Rehberi",
-    image: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/kucukcekmece.png",
     sections: [
       {
         heading: "Geniş ilçe dokusunun getirdiği çeşitlilik",
@@ -1560,7 +1560,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Bağcılar'ın yoğun nüfuslu ve sanayiye yakın dokusunda çöp atım ve eski eşya tahliyesinin nasıl işlediğini anlatıyoruz.",
     date: "07 Eyl 2026",
     category: "Bölge Rehberi",
-    image: "https://images.unsplash.com/photo-1707407087163-7ab35bca9ffc?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/bagcilar.png",
     sections: [
       {
         heading: "Yoğun nüfuslu bir ilçede talep yoğunluğu",
@@ -1596,7 +1596,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Beylikdüzü'nün planlı ve geniş yollu site dokusunda eski eşya attırma sürecini anlatıyoruz.",
     date: "09 Eyl 2026",
     category: "Bölge Rehberi",
-    image: "https://images.unsplash.com/photo-1714647211902-bb711d643a17?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/beylikduzu.png",
     sections: [
       {
         heading: "Planlı yerleşim, kolay araç erişimi",
@@ -1632,7 +1632,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Avcılar'ın sahil ve üniversite öğrenci yoğun dokusunda eski eşya attırma sürecinin nasıl planlanması gerektiğini anlatıyoruz.",
     date: "11 Eyl 2026",
     category: "Bölge Rehberi",
-    image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/avcılar.png",
     sections: [
       {
         heading: "Üniversite öğrenci yoğunluğunun getirdiği talep",
@@ -1668,7 +1668,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Beyoğlu'nun tarihi ve dik yokuşlu sokaklarında eski eşya tahliyesinin nasıl yapıldığını anlatıyoruz.",
     date: "13 Eyl 2026",
     category: "Bölge Rehberi",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/beyoglu.png",
     sections: [
       {
         heading: "Tarihi ve dik yokuşlu sokak dokusu",
@@ -1704,7 +1704,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Moloz tam olarak neyi kapsar, hangi malzemeler bu sınıfa girer ve neden evsel çöpten ayrı değerlendirilir; temel bilgileri derledik.",
     date: "15 Eyl 2026",
     category: "Moloz",
-    image: "/images/MOLOZ.jpg",
+    image: "/images/blog/moloz.png",
     sections: [
       {
         heading: "Moloz hangi malzemeleri kapsar?",
@@ -1740,7 +1740,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Hafriyat kavramını, moloz ile arasındaki farkı ve kazı sonrası çıkan toprak/kayaç malzemenin nasıl yönetildiğini anlatıyoruz.",
     date: "17 Eyl 2026",
     category: "Moloz",
-    image: "/images/FABRIKA.jpg",
+    image: "/images/blog/moloz.png",
     sections: [
       {
         heading: "Hafriyat tanımı",
@@ -1776,7 +1776,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Moloz ve hafriyatın çöp konteynerine veya kaldırıma bırakılmasının yasal durumunu ve doğru bertaraf yöntemini anlatıyoruz.",
     date: "19 Eyl 2026",
     category: "Moloz",
-    image: "/images/acilco.jpg",
+    image: "/images/blog/moloz.png",
     sections: [
       {
         heading: "Moloz çöpe atılabilir mi?",
@@ -1812,7 +1812,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Beton, tuğla ve metal gibi inşaat atıklarının geri dönüşüm sürecini ve bu sürecin çevresel faydalarını anlatıyoruz.",
     date: "21 Eyl 2026",
     category: "Moloz",
-    image: "/images/MOLOZ.jpg",
+    image: "/images/blog/moloz.png",
     sections: [
       {
         heading: "Hangi malzemeler geri dönüştürülebilir?",
@@ -1848,7 +1848,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Belediyelerin moloz toplama hizmetinin kapsamını, randevu sürecini ve profesyonel hizmetle farkını anlatıyoruz.",
     date: "23 Eyl 2026",
     category: "Moloz",
-    image: "/images/DEPOBOSALTMA.jpg",
+    image: "/images/blog/moloz.png",
     sections: [
       {
         heading: "Belediye moloz toplama hizmeti kapsamı",
@@ -1884,7 +1884,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "İşin hacmine göre çuval, kamyonet, kamyon veya tır seçimi nasıl yapılır; doğru araç seçiminin maliyete etkisini anlatıyoruz.",
     date: "25 Eyl 2026",
     category: "Moloz",
-    image: "/images/FABRIKA.jpg",
+    image: "/images/blog/moloz.png",
     sections: [
       {
         heading: "Çuval bazlı taşıma ne zaman yeterli olur?",
@@ -1920,7 +1920,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Kazı çalışmaları sırasında hafriyat toplama sürecinin nasıl organize edilmesi gerektiğini, sefer planlamasını anlatıyoruz.",
     date: "27 Eyl 2026",
     category: "Moloz",
-    image: "/images/FABRIKA.jpg",
+    image: "/images/blog/moloz.png",
     sections: [
       {
         heading: "Kazı öncesi hacim tahmini",
@@ -1956,7 +1956,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "AVM, müze, otopark ve rezidans gibi kurallı alanlarda moloz atımının nasıl planlanması gerektiğini anlatıyoruz.",
     date: "29 Eyl 2026",
     category: "Moloz",
-    image: "/images/MAGAZA.jpg",
+    image: "/images/blog/moloz.png",
     sections: [
       {
         heading: "Kurallı alanlarda neden farklı bir yaklaşım gerekir?",
@@ -1992,7 +1992,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Çatı yenileme ve kiremit söküm çalışmaları sonrası ortaya çıkan molozun doğru bertaraf yöntemini anlatıyoruz.",
     date: "01 Eki 2026",
     category: "Moloz",
-    image: "/images/catikarisik.jpg",
+    image: "/images/blog/moloz.png",
     sections: [
       {
         heading: "Çatı söküm molozu neden özel bir durumdur?",
@@ -2028,7 +2028,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Ev ve ofis tadilatlarından çıkan alçıpan, seramik ve fayans molozunun doğru bertaraf yöntemini anlatıyoruz.",
     date: "03 Eki 2026",
     category: "Moloz",
-    image: "/images/MOLOZ.jpg",
+    image: "/images/blog/moloz.png",
     sections: [
       {
         heading: "Tadilat molozu neden farklı değerlendirilir?",
@@ -2064,7 +2064,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Moloz geri dönüşümünün doğal kaynak tüketimi ve düzenli depolama alanları üzerindeki etkisini anlatıyoruz.",
     date: "05 Eki 2026",
     category: "Moloz",
-    image: "/images/MOLOZ.jpg",
+    image: "/images/blog/moloz.png",
     sections: [
       {
         heading: "Doğal kaynak tüketimini azaltma",
@@ -2100,7 +2100,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Moloz taşıma ve yükleme sırasında ekip ve bina güvenliğini korumak için alınması gereken önlemleri anlatıyoruz.",
     date: "07 Eki 2026",
     category: "Moloz",
-    image: "/images/FABRIKA.jpg",
+    image: "/images/blog/moloz.png",
     sections: [
       {
         heading: "Kişisel koruyucu ekipman kullanımı",
@@ -2136,7 +2136,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Evden çıkan büyük hacimli çöp ve eski eşyaları kaldırım yerine doğru ve hızlı şekilde taşıtmanın yöntemlerini, fiyat aralığını ve dikkat edilmesi gerekenleri anlatıyoruz.",
     date: "09 Eki 2026",
     category: "Rehber",
-    image: "/images/acilco.jpg",
+    image: "/images/blog/evdenzopatim.png",
     sections: [
       {
         heading: "Ev çöp taşıma ne zaman gerekir?",
@@ -2172,7 +2172,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Erenköy'ün köklü apartmanları ve geniş aile yapısında eski eşya toplama sürecinin nasıl planlanması gerektiğini anlatıyoruz.",
     date: "11 Eki 2026",
     category: "Mahalle Rehberi",
-    image: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/erenkoy.png",
     sections: [
       {
         heading: "Erenköy'de eski eşya neden birikir?",
@@ -2208,7 +2208,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Suadiye'nin sahil hattındaki butik apartmanlarında ve sitelerde eski eşyanın doğru ve hızlı şekilde nasıl tahliye edileceğini anlatıyoruz.",
     date: "13 Eki 2026",
     category: "Mahalle Rehberi",
-    image: "https://images.unsplash.com/photo-1663625318264-695d2d04f11a?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/suadiye.png",
     sections: [
       {
         heading: "Suadiye'de eski eşya atımı neden farklıdır?",
@@ -2244,7 +2244,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Çiftehavuzlar'ın sakin ve dar sokaklı yerleşim dokusunda eşya tahliyesinin nasıl planlanması gerektiğini anlatıyoruz.",
     date: "15 Eki 2026",
     category: "Mahalle Rehberi",
-    image: "https://images.unsplash.com/photo-1764756896400-54b2aa9c216f?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/cifehavuzlar.png",
     sections: [
       {
         heading: "Çiftehavuzlar'ın yerleşim dokusu",
@@ -2280,7 +2280,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Kalamış'ın marina çevresindeki site ve apartman karışımı dokusunda eski eşya toplama sürecini anlatıyoruz.",
     date: "17 Eki 2026",
     category: "Mahalle Rehberi",
-    image: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/kalamis.png",
     sections: [
       {
         heading: "Kalamış'ta eşya tahliyesi neden özen ister?",
@@ -2316,7 +2316,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Caddebostan'ın sahil hattındaki yoğun apartman yerleşiminde hurda mobilya tahliyesinin nasıl planlanması gerektiğini anlatıyoruz.",
     date: "19 Eki 2026",
     category: "Mahalle Rehberi",
-    image: "https://images.unsplash.com/photo-1714647211902-bb711d643a17?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/caddebostanhurda.png",
     sections: [
       {
         heading: "Caddebostan'da hurda mobilya neden birikir?",
@@ -2352,7 +2352,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Bostancı'nın iskele ve E5 çevresindeki yoğun yerleşim dokusunda çöp atım ve eski eşya toplama sürecini anlatıyoruz.",
     date: "21 Eki 2026",
     category: "Mahalle Rehberi",
-    image: "https://images.unsplash.com/photo-1601467995997-ac1ae9a8fff4?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/bostancicop.png",
     sections: [
       {
         heading: "Bostancı'nın ulaşım yoğunluğu eşya tahliyesini nasıl etkiler?",
@@ -2388,7 +2388,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Etiler'deki rezidans ve plaza yoğun bölgesinde eski eşya toplama sürecinin kurallara uygun nasıl yürütüldüğünü anlatıyoruz.",
     date: "23 Eki 2026",
     category: "Mahalle Rehberi",
-    image: "https://images.unsplash.com/photo-1707407087163-7ab35bca9ffc?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/etiler.png",
     sections: [
       {
         heading: "Etiler'de eski eşya toplama neden farklı planlanır?",
@@ -2424,7 +2424,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Bebek'in sahil şeridindeki villa ve butik apartmanlarında eski eşyanın doğru ve özenli şekilde nasıl tahliye edileceğini anlatıyoruz.",
     date: "25 Eki 2026",
     category: "Mahalle Rehberi",
-    image: "https://images.unsplash.com/photo-1555694746-edc80f35e53d?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/bebek.png",
     sections: [
       {
         heading: "Bebek'te eski eşya atımı neden özel bir yaklaşım gerektirir?",
@@ -2460,7 +2460,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Ulus'un geniş bahçeli villa dokusunda eşya tahliyesinin nasıl planlanması gerektiğini anlatıyoruz.",
     date: "27 Eki 2026",
     category: "Mahalle Rehberi",
-    image: "https://images.unsplash.com/photo-1699685431493-82d4a40c662e?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/ulus.png",
     sections: [
       {
         heading: "Ulus'ta villa eşya tahliyesi neden farklıdır?",
@@ -2496,7 +2496,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "Nişantaşı'ndaki lüks rezidans ve butik apartmanlarda eski eşya toplama ve ev boşaltma sürecini anlatıyoruz.",
     date: "29 Eki 2026",
     category: "Mahalle Rehberi",
-    image: "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/blog/nisantasi.png",
     sections: [
       {
         heading: "Nişantaşı'nda eşya tahliyesi neden özenli planlanır?",
