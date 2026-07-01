@@ -41,6 +41,7 @@ const GROUPS: { label: string; anchor: string; categories: string[]; hideImage?:
     label: "Fiyatlandırma ve Karşılaştırmalar",
     anchor: "fiyat-karsilastirma",
     categories: ["Fiyatlandırma", "Karşılaştırma"],
+    hideImage: true,
   },
 ];
 
