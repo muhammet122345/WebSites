@@ -5,10 +5,9 @@ import SmoothScroll from "@/components/SmoothScroll";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import CallButton from "@/components/CallButton";
 import { getSiteConfig } from "@/lib/site-config";
-import { BRAND } from "@/data/content";
+import { getApprovedReviews } from "@/lib/reviews-store";
+import { organizationSchema, websiteSchema, SITE_URL } from "@/lib/schema";
 import "./globals.css";
-
-const SITE_URL = "https://fazlalikat.com";
 
 const bricolage = Bricolage_Grotesque({
   variable: "--font-bricolage",
@@ -27,7 +26,7 @@ export const metadata: Metadata = {
     template: "%s | Fazlalıkat",
   },
   description:
-    "Ev, ofis, depo ve çatı katlarınızdaki fazlalıklardan aynı gün kurtulun. Türkiye'nin profesyonel tahliye ve temizlik ekibi Fazlalıkat ile alanınızı yeniden kazanın.",
+    "Ev, ofis, depo ve çatı katlarınızdaki fazlalıklardan aynı gün kurtulun. İstanbul Anadolu ve Avrupa Yakası'nda profesyonel eşya tahliye, moloz atımı ve çöp toplama — Fazlalıkat.",
   keywords: [
     "eşya tahliye",
     "moloz atımı",
@@ -35,14 +34,20 @@ export const metadata: Metadata = {
     "depo temizliği",
     "çöp atımı",
     "eski eşya nereye atılır",
+    "eski koltuk nereye atılır",
+    "ücretli eşya tahliye İstanbul",
     "fazlalıkat",
   ],
-  alternates: {
-    canonical: SITE_URL,
-  },
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
   },
   openGraph: {
     type: "website",
@@ -51,42 +56,23 @@ export const metadata: Metadata = {
     siteName: "Fazlalıkat",
     title: "Fazlalıkat | Ücretli Eşya, Moloz ve Çöp Tahliye Hizmeti",
     description:
-      "Ev, ofis, depo ve çatı katlarınızdaki fazlalıklardan aynı gün kurtulun.",
+      "Ev, ofis, depo ve çatı katlarınızdaki fazlalıklardan aynı gün kurtulun. İstanbul geneli profesyonel tahliye.",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Fazlalıkat — Ücretli eşya, moloz ve çöp tahliye",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Fazlalıkat | Ücretli Eşya, Moloz ve Çöp Tahliye Hizmeti",
     description:
       "Ev, ofis, depo ve çatı katlarınızdaki fazlalıklardan aynı gün kurtulun.",
+    images: ["/og-image.png"],
   },
-};
-
-const localBusinessSchema = {
-  "@context": "https://schema.org",
-  "@type": "MovingCompany",
-  name: BRAND.name,
-  url: SITE_URL,
-  telephone: [BRAND.phoneHref, BRAND.phoneHref2],
-  email: BRAND.email,
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: BRAND.address,
-    addressLocality: "İstanbul",
-    addressCountry: "TR",
-  },
-  areaServed: {
-    "@type": "City",
-    name: "İstanbul",
-  },
-  priceRange: "₺₺",
-};
-
-const websiteSchema = {
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  name: BRAND.name,
-  url: SITE_URL,
-  inLanguage: "tr-TR",
 };
 
 export default async function RootLayout({
@@ -94,7 +80,10 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const { colors } = await getSiteConfig();
+  const [{ colors }, reviews] = await Promise.all([
+    getSiteConfig(),
+    getApprovedReviews(),
+  ]);
 
   return (
     <html
@@ -111,7 +100,6 @@ export default async function RootLayout({
         } as React.CSSProperties
       }
     >
-      
       <body className="min-h-full flex flex-col bg-background text-foreground">
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-VN8R73M6NP"
@@ -127,11 +115,13 @@ export default async function RootLayout({
         </Script>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationSchema(reviews)),
+          }}
         />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema()) }}
         />
         <SmoothScroll>
           {children}

@@ -58,8 +58,15 @@ export default function Testimonials({ reviews }: { reviews: Review[] }) {
           ))}
         </div>
 
-        <div className="mt-10 max-w-2xl">
+        <div className="mt-10 max-w-2xl space-y-4">
           <ReviewForm />
+          <p className="text-center text-sm text-muted">
+            Google yorumu için{" "}
+            <a href="/yorum" className="text-accent hover:underline">
+              /yorum
+            </a>{" "}
+            sayfasını kullanın — yerel sıralamada en güçlü sinyal.
+          </p>
         </div>
       </div>
     </section>

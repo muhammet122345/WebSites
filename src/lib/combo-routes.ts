@@ -1,38 +1,43 @@
 import { DISTRICTS, type District } from "@/data/districts";
 import { ITEM_TYPES, type ItemType } from "@/data/item-types";
 
-export const PRIORITY_DISTRICT_SLUGS = [
-  "kadikoy",
-  "uskudar",
-  "besiktas",
-  "sisli",
-  "bagcilar",
-  "basaksehir",
-  "bahcelievler",
-  "pendik",
-  "umraniye",
-  "maltepe",
-  "atasehir",
-  "beylikduzu",
-];
+/** @deprecated Full matrix is used; kept for any legacy imports. */
+export const PRIORITY_DISTRICT_SLUGS = DISTRICTS.map((d) => d.slug);
 
 export type ComboRoute = { district: District; itemType: ItemType; slug: string };
 
 export function getComboRoutes(): ComboRoute[] {
-  const priorityDistricts = DISTRICTS.filter((d) => PRIORITY_DISTRICT_SLUGS.includes(d.slug));
   const combos: ComboRoute[] = [];
-  for (const district of priorityDistricts) {
+  for (const district of DISTRICTS) {
     for (const itemType of ITEM_TYPES) {
-      combos.push({ district, itemType, slug: `${district.slug}-${itemType.suffix}` });
+      combos.push({
+        district,
+        itemType,
+        slug: `${district.slug}-${itemType.suffix}`,
+      });
     }
   }
   return combos;
 }
 
 export function resolveComboSlug(slug: string): ComboRoute | undefined {
-  return getComboRoutes().find((c) => c.slug === slug);
+  // Avoid building the full matrix on every lookup — parse slug instead.
+  for (const itemType of ITEM_TYPES) {
+    const suffix = `-${itemType.suffix}`;
+    if (!slug.endsWith(suffix)) continue;
+    const districtSlug = slug.slice(0, -suffix.length);
+    const district = DISTRICTS.find((d) => d.slug === districtSlug);
+    if (district) return { district, itemType, slug };
+  }
+  return undefined;
 }
 
 export function getCombosForDistrict(districtSlug: string): ComboRoute[] {
-  return getComboRoutes().filter((c) => c.district.slug === districtSlug);
+  const district = DISTRICTS.find((d) => d.slug === districtSlug);
+  if (!district) return [];
+  return ITEM_TYPES.map((itemType) => ({
+    district,
+    itemType,
+    slug: `${district.slug}-${itemType.suffix}`,
+  }));
 }

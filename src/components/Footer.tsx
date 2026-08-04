@@ -2,41 +2,36 @@ import Link from "next/link";
 import { BRAND, NAV_LINKS } from "@/data/content";
 import { DISTRICTS, districtPath } from "@/data/districts";
 
-const FEATURED_DISTRICT_SLUGS = ["kadikoy", "uskudar", "besiktas", "sisli", "maltepe", "umraniye"];
+const SERVICE_LINKS = [
+  { label: "Ev Boşaltma", href: "/ev-bosaltma" },
+  { label: "Çöp Atım Hizmeti", href: "/cop-atim-hizmeti" },
+  { label: "Moloz Atımı", href: "/moloz-atimi" },
+  { label: "Depo Temizliği", href: "/depo-temizligi" },
+  { label: "Ofis Boşaltma", href: "/ofis-bosaltma" },
+  { label: "Çatı Katı Temizliği", href: "/cati-kati-temizligi" },
+  { label: "Avrupa Yakası", href: "/avrupa-yakasi-esya-tahliye" },
+  { label: "Anadolu Yakası", href: "/anadolu-yakasi-esya-tahliye" },
+  { label: "Blog", href: "/blog" },
+  { label: "Yorum Yaz", href: "/yorum" },
+];
 
 export default function Footer() {
-  const featuredDistricts = DISTRICTS.filter((d) => FEATURED_DISTRICT_SLUGS.includes(d.slug));
+  const avrupa = DISTRICTS.filter((d) => d.side === "Avrupa");
+  const anadolu = DISTRICTS.filter((d) => d.side === "Anadolu");
 
   return (
     <footer id="iletisim" className="relative border-t border-line px-6 py-16">
       <div className="mx-auto max-w-7xl">
-        <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-5">
+        <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <div className="font-display text-lg font-semibold">
               Fazlalı<span className="text-accent">kat</span>
             </div>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted">
-              Türkiye&apos;nin profesyonel eşya, moloz ve çöp tahliye hizmeti. Hızlı,
-              şeffaf ve çevre dostu.
+              İstanbul Anadolu ve Avrupa Yakası&apos;nda profesyonel eşya, moloz ve çöp
+              tahliye hizmeti. Hızlı, şeffaf ve çevre dostu.
             </p>
-          </div>
-
-          <div>
-            <div className="text-sm font-medium text-foreground">Hızlı Erişim</div>
-            <ul className="mt-4 space-y-3 text-sm text-muted">
-              {NAV_LINKS.map((link) => (
-                <li key={link.href}>
-                  <a href={link.href} className="hover:text-foreground">
-                    {link.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div>
-            <div className="text-sm font-medium text-foreground">İletişim</div>
-            <ul className="mt-4 space-y-3 text-sm text-muted">
+            <ul className="mt-6 space-y-2 text-sm text-muted">
               <li>
                 <a href={`tel:${BRAND.phoneHref}`} className="hover:text-foreground">
                   {BRAND.phone}
@@ -57,30 +52,58 @@ export default function Footer() {
           </div>
 
           <div>
-            <div className="text-sm font-medium text-foreground">Çalışma Saatleri</div>
+            <div className="text-sm font-medium text-foreground">Hizmetler</div>
             <ul className="mt-4 space-y-3 text-sm text-muted">
-              <li>Pazartesi – Cumartesi: 08:00 – 20:00</li>
+              {SERVICE_LINKS.map((link) => (
+                <li key={link.href}>
+                  <Link href={link.href} className="hover:text-foreground">
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+              {NAV_LINKS.filter((l) => l.href.startsWith("/#")).map((link) => (
+                <li key={link.href}>
+                  <a href={link.href} className="hover:text-foreground">
+                    {link.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+            <div className="mt-8 text-sm font-medium text-foreground">Çalışma Saatleri</div>
+            <ul className="mt-3 space-y-2 text-sm text-muted">
+              <li>Pzt – Cmt: 08:00 – 20:00</li>
               <li>Pazar: 09:00 – 18:00</li>
-              <li>WhatsApp hattı: 7/24 aktif</li>
+              <li>WhatsApp: 7/24</li>
             </ul>
           </div>
 
           <div>
-            <div className="text-sm font-medium text-foreground">Popüler İlçeler</div>
-            <ul className="mt-4 space-y-3 text-sm text-muted">
-              {featuredDistricts.map((d) => (
-                <li key={d.slug}>
+            <div className="text-sm font-medium text-foreground">Avrupa Yakası</div>
+            <ul className="mt-4 columns-2 gap-x-4 space-y-2 text-sm text-muted">
+              {avrupa.map((d) => (
+                <li key={d.slug} className="break-inside-avoid">
                   <Link href={districtPath(d)} className="hover:text-foreground">
                     {d.name}
                   </Link>
                 </li>
               ))}
-              <li>
-                <Link href="/ilceler" className="text-accent hover:underline">
-                  Tüm İlçeler →
-                </Link>
-              </li>
             </ul>
+          </div>
+
+          <div>
+            <div className="text-sm font-medium text-foreground">Anadolu Yakası</div>
+            <ul className="mt-4 columns-2 gap-x-4 space-y-2 text-sm text-muted">
+              {anadolu.map((d) => (
+                <li key={d.slug} className="break-inside-avoid">
+                  <Link href={districtPath(d)} className="hover:text-foreground">
+                    {d.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <Link href="/ilceler" className="mt-4 inline-block text-sm text-accent hover:underline">
+              Tüm ilçeler →
+            </Link>
           </div>
         </div>
 

@@ -1,0 +1,103 @@
+{
+  "comparedAt": "2026-08-03",
+  "copatimSitemapUrls": 50,
+  "fazlalikatApproxUrls": 478,
+  "summary": {
+    "urlCoverageVsCopatim": "Copatim'in ~50 URL'sinin büyük kısmı bizde blog veya ilçe/combo olarak karşılanmış; asıl açık intent/keyword ve hub eksikleri.",
+    "realSerpNote": "Google'da bu nişte Copatim tek rakip değil; umutspot, molozhatti, Armut, ikinci el/spot siteleri de sıralanıyor.",
+    "ourMoat": ["39 ilçe × 9 combo", "Anadolu Yakası mahalle cluster", "Moloz/hafriyat cluster", "Hub sayfalar (depo/ofis/çatı)"]
+  },
+  "trueGapsVsCopatim": [
+    {
+      "priority": 1,
+      "intent": "İstanbul Avrupa Yakası çöp atım / eşya tahliye",
+      "copatimUrl": "https://copatim.com/istanbul-avrupa-yakasi-cop-atim-hizmeti.html",
+      "why": "Yaka bazlı ticari hub; Copatim markasının ana coğrafi claim'i",
+      "action": "Yeni hub: /avrupa-yakasi-esya-tahliye (+ mirror /anadolu-yakasi-esya-tahliye)",
+      "type": "hub"
+    },
+    {
+      "priority": 2,
+      "intent": "eski baza nereye atılır",
+      "copatimUrl": "https://copatim.com/blog/besiktas-eski-baza-nereye-atilir.html (+ sisli)",
+      "why": "Yatak'tan ayrı long-tail; baza/kanepe aramaları",
+      "action": "Pillar blog + item type veya combo suffix 'eski-baza-nereye-atilir' (önce Beşiktaş/Şişli/Kadıköy)",
+      "type": "item+blog"
+    },
+    {
+      "priority": 3,
+      "intent": "çöp atım hizmeti İstanbul (servis landing)",
+      "copatimUrl": "https://copatim.com/cop-atim-hizmeti-istanbul.html",
+      "why": "Bizde blog var, dedicated service landing zayıf/dağınık",
+      "action": "Hub veya /cop-atim-hizmeti alias → ev-bosaltma/homepage güçlendirme + canonical stratejisi",
+      "type": "hub"
+    },
+    {
+      "priority": 4,
+      "intent": "kiracı tahliyesi sonrası daire temizliği",
+      "copatimUrl": "https://copatim.com/blog/kiraci-tahliyesi-sonrasi-daire-temizligi.html",
+      "why": "kiraci-cikisi ve kiraci-esya-birakti var ama 'tahliye sonrası daire' intent'i ayrı",
+      "action": "Yeni blog: kiraci-tahliyesi-sonrasi-daire-temizligi",
+      "type": "blog"
+    },
+    {
+      "priority": 5,
+      "intent": "Beşiktaş hurda mobilya alanlar",
+      "copatimUrl": "https://copatim.com/blog/besiktas-hurda-mobilya-alanlar.html",
+      "why": "İlçe + hurda angle; Bakırköy/Sultangazi var, Beşiktaş eksik",
+      "action": "Blog: besiktas-hurda-mobilya-alanlar",
+      "type": "blog"
+    },
+    {
+      "priority": 6,
+      "intent": "Beşiktaş çöp atım (kısa commercial URL)",
+      "copatimUrl": "https://copatim.com/besiktas-cop-atim.html",
+      "why": "Bizde besiktas-esya-tahliye var; 'çöp atım' keyword varyasyonu için içerik/title güçlendirme",
+      "action": "District SEO copy'ye 'çöp atım' varyasyonu + blog title optimize",
+      "type": "optimize"
+    }
+  ],
+  "qualityGaps": [
+    {
+      "priority": 7,
+      "intent": "İlçe rehberlerini Copatim seviyesinde şişir",
+      "note": "Birçok ilçe blogumuz 4–5 kısa paragraf; Copatim mahalle listesi + CTA + fiyat sinyali ile daha 'ticari'",
+      "action": "Önce Avrupa dense ilçeler: Beşiktaş, Şişli, Bağcılar, Esenyurt, Küçükçekmece, Fatih"
+    },
+    {
+      "priority": 8,
+      "intent": "eski koltuk takımı / baza / halı long-tail",
+      "note": "Copatim 'takım' ve 'baza' kelimelerini ayrı URL'de hedefliyor",
+      "action": "Pillar: eski-baza-nereye-atilir, eski-hali-nereye-atilir"
+    }
+  ],
+  "reverseGaps_weWin": [
+    "Anadolu Yakası hub + Kadıköy/Ümraniye/Sultanbeyli cluster",
+    "Moloz/hafriyat içerik ağı (Copatim sitemap'te yok)",
+    "39×9 combo matrisi",
+    "Mahalle: Erenköy, Suadiye, Caddebostan, Nişantaşı, Etiler, Bebek",
+    "asansorsuz-binadan-esya-indirme, ayni-gun-esya-tahliye"
+  ],
+  "priorityWriteList": [
+    { "rank": 1, "slug": "avrupa-yakasi-esya-tahliye", "title": "İstanbul Avrupa Yakası Eşya Tahliye ve Çöp Atım", "format": "hub" },
+    { "rank": 2, "slug": "anadolu-yakasi-esya-tahliye", "title": "İstanbul Anadolu Yakası Eşya Tahliye ve Çöp Atım", "format": "hub" },
+    { "rank": 3, "slug": "eski-baza-nereye-atilir", "title": "Eski Baza Nereye Atılır? Kapıdan Alım Rehberi", "format": "blog" },
+    { "rank": 4, "slug": "kiraci-tahliyesi-sonrasi-daire-temizligi", "title": "Kiracı Tahliyesi Sonrası Daire Temizliği", "format": "blog" },
+    { "rank": 5, "slug": "besiktas-hurda-mobilya-alanlar", "title": "Beşiktaş Hurda Mobilya Alanlar", "format": "blog" },
+    { "rank": 6, "slug": "eski-hali-nereye-atilir", "title": "Eski Halı Nereye Atılır?", "format": "blog" },
+    { "rank": 7, "slug": "besiktas-eski-baza-nereye-atilir", "title": "Beşiktaş Eski Baza Nereye Atılır?", "format": "blog" },
+    { "rank": 8, "slug": "sisli-eski-baza-nereye-atilir", "title": "Şişli Eski Baza Nereye Atılır?", "format": "blog" },
+    { "rank": 9, "slug": "cop-atim-hizmeti", "title": "Çöp Atım Hizmeti İstanbul", "format": "hub-or-redirect" },
+    { "rank": 10, "slug": "gungoren-eski-esya-toplama", "title": "Güngören Eski Eşya Toplama", "format": "blog" },
+    { "rank": 11, "slug": "kadikoy-eski-baza-nereye-atilir", "title": "Kadıköy Eski Baza Nereye Atılır?", "format": "blog" },
+    { "rank": 12, "slug": "uskudar-eski-esya-nereye-atilir", "title": "Üsküdar Eski Eşya Nereye Atılır?", "format": "blog" },
+    { "rank": 13, "slug": "maltepe-eski-esya-nereye-atilir", "title": "Maltepe Eski Eşya Nereye Atılır?", "format": "blog" },
+    { "rank": 14, "slug": "kartal-eski-esya-nereye-atilir", "title": "Kartal Eski Eşya Nereye Atılır?", "format": "blog" },
+    { "rank": 15, "slug": "pendik-eski-esya-nereye-atilir", "title": "Pendik Eski Eşya Nereye Atılır?", "format": "blog" },
+    { "rank": 16, "slug": "cope-koltuk-atmak-yasak-mi", "title": "Çöpe Koltuk Atmak Yasak mı? Ceza ve Alternatifler", "format": "blog" },
+    { "rank": 17, "slug": "alo-153-buyuk-atik-randevu-alternatifi", "title": "Alo 153 Büyük Atık Randevusu Alternatifi", "format": "blog" },
+    { "rank": 18, "slug": "eski-cek-yat-nereye-atilir", "title": "Eski Çekyat Nereye Atılır?", "format": "blog" },
+    { "rank": 19, "slug": "site-yonetimi-icin-esya-tahliye", "title": "Site Yönetimi İçin Toplu Eşya Tahliye", "format": "blog" },
+    { "rank": 20, "slug": "tadilat-sonrasi-ev-bosaltma", "title": "Tadilat Sonrası Ev Boşaltma ve Moloz", "format": "blog" }
+  ]
+}

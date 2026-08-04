@@ -186,6 +186,36 @@ export const DISTRICTS: District[] = [
     ],
   },
   {
+    slug: "esenler",
+    name: "Esenler",
+    side: "Avrupa",
+    neighborhoods: ["Turgut Reis", "Menderes", "Fevzi Çakmak", "Nine Hatun"],
+    characteristic: "yoğun eski apartman dokusu ve dar sokaklı mahalleleri",
+    localNote:
+      "Turgut Reis ve Menderes gibi sık yapılaşmış bölgelerde küçük araçla esnek planlama yapıyor, asansörsüz binalarda da aynı gün tahliye sağlıyoruz.",
+    neighborhoodNotes: [
+      { name: "Turgut Reis", note: "Turgut Reis Mahallesi'nin dar sokaklı yoğun apartman dokusunda, küçük araçla park sorunu yaşamadan hızlı tahliye planlıyoruz." },
+      { name: "Menderes", note: "Menderes'teki sık yapılaşmış konut bölgesinde, randevulu çalışarak trafik ve erişim kısıtlarını yönetiyoruz." },
+      { name: "Fevzi Çakmak", note: "Fevzi Çakmak Mahallesi'nde eski yapı stoklu binalarda merdivenden indirme gerektiren işlerde deneyimli ekiple çalışıyoruz." },
+      { name: "Nine Hatun", note: "Nine Hatun çevresindeki apartman yoğunluğunda, aynı gün randevu ve şeffaf fiyatla hizmet veriyoruz." },
+    ],
+  },
+  {
+    slug: "esenyurt",
+    name: "Esenyurt",
+    side: "Avrupa",
+    neighborhoods: ["Cumhuriyet", "Bağlarçeşme", "Yenikent", "Saadetdere"],
+    characteristic: "yoğun nüfuslu site ve toplu konut yapılanmasını",
+    localNote:
+      "Büyük sitelerde yük asansörü ve yönetim kurallarına uygun randevulu çalışıyor; kiracı çıkışı ve daire boşaltma taleplerinde aynı gün çözüm sunuyoruz.",
+    neighborhoodNotes: [
+      { name: "Cumhuriyet", note: "Cumhuriyet Mahallesi'ndeki yüksek katlı sitelerde yük asansörü kurallarına uygun, planlı tahliye yapıyoruz." },
+      { name: "Bağlarçeşme", note: "Bağlarçeşme'nin yoğun konut dokusunda, kiracı çıkışı ve ev boşaltma taleplerine hızlı randevu veriyoruz." },
+      { name: "Yenikent", note: "Yenikent'teki toplu konut bölgelerinde site yönetimleriyle koordineli, sessiz ve hızlı çalışıyoruz." },
+      { name: "Saadetdere", note: "Saadetdere Mahallesi'nde orta ve yüksek katlı binalarda esnek araç planlamasıyla hizmet sunuyoruz." },
+    ],
+  },
+  {
     slug: "eyupsultan",
     name: "Eyüpsultan",
     side: "Avrupa",
@@ -465,6 +495,21 @@ export const DISTRICTS: District[] = [
       { name: "Safa", note: "Safa Mahallesi'ndeki yeni yerleşim bölgesinde, randevulu ve planlı hizmet sunuyoruz." },
       { name: "Eyüp Sultan", note: "Eyüp Sultan Mahallesi'nin gelişmekte olan site dokusunda, esnek çözümlerle çalışıyoruz." },
       { name: "Veysel Karani", note: "Veysel Karani Mahallesi'ndeki toplu konut yapılanmasında, hızlı ve düzenli tahliye hizmeti veriyoruz." },
+    ],
+  },
+  {
+    slug: "sultanbeyli",
+    name: "Sultanbeyli",
+    side: "Anadolu",
+    neighborhoods: ["Hamidiye", "Abdurrahmangazi", "Hasanpaşa", "Mevlana"],
+    characteristic: "hızla büyüyen konut dokusu ve site-apartman karışımı yerleşimini",
+    localNote:
+      "Merkez ofisimizin bulunduğu ilçede aynı gün müdahale kapasitemiz yüksek; Hamidiye ve çevresinde depo, çatı katı ve daire boşaltmalarında öncelikli hizmet veriyoruz.",
+    neighborhoodNotes: [
+      { name: "Hamidiye", note: "Hamidiye Mahallesi'nde merkez ofisimize yakınlık sayesinde çoğu talebe aynı gün ekip yönlendirebiliyoruz." },
+      { name: "Abdurrahmangazi", note: "Abdurrahmangazi'deki yoğun apartman yerleşiminde randevulu, hızlı ve düzenli tahliye sağlıyoruz." },
+      { name: "Hasanpaşa", note: "Hasanpaşa Mahallesi'nde site ve apartman karışımı dokuda yük asansörü kurallarına uygun çalışıyoruz." },
+      { name: "Mevlana", note: "Mevlana Mahallesi'nde ev, depo ve çatı katı boşaltmalarında esnek araç planlamasıyla hizmet sunuyoruz." },
     ],
   },
   {

@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: "Hizmet Verdiğimiz İstanbul İlçeleri",
   description:
     "Fazlalıkat, İstanbul'un Avrupa ve Anadolu yakasındaki tüm ilçelerinde eşya tahliye ve çöp atım hizmeti veriyor. Bölgenizi seçip detaylı bilgi alın.",
+  alternates: { canonical: "/ilceler" },
 };
 
 export default function DistrictsIndexPage() {

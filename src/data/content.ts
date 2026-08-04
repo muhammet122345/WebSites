@@ -7,6 +7,10 @@ export const BRAND = {
   whatsapp: "905322671405",
   email: "iletisim@fazlalikat.com",
   address: "Hamidiye Mahallesi, Asil Sokak No:12, Sultanbeyli / İstanbul",
+  /** Google Business Profile review link — set NEXT_PUBLIC_GOOGLE_REVIEW_URL in env. */
+  googleReviewUrl: process.env.NEXT_PUBLIC_GOOGLE_REVIEW_URL?.trim() || "",
+  /** Optional GBP profile URL for "Bizi Google'da bulun". */
+  googleBusinessUrl: process.env.NEXT_PUBLIC_GOOGLE_BUSINESS_URL?.trim() || "",
 };
 
 export const NAV_LINKS = [
@@ -208,5 +212,25 @@ export const FAQ = [
     question: "Eşyaları kapıya kendim mi çıkarmam gerekiyor?",
     answer:
       "Hayır. Ekibimiz adresinize gelir, eşyaları bulunduğu odadan veya kattan kendi imkanlarımızla alıp dışarı taşır. Siz hiçbir şeyi kapıya, kaldırıma veya asansöre taşımak zorunda kalmazsınız — biz tamamen yerinde tahliye ediyoruz.",
+  },
+  {
+    question: "Hangi ilçelerde hizmet veriyorsunuz?",
+    answer:
+      "İstanbul Anadolu ve Avrupa Yakası'nın 39 ilçesinin tamamında eşya tahliye, çöp atım, depo temizliği, ofis boşaltma ve moloz taşıma hizmeti veriyoruz. Sultanbeyli, Esenyurt, Kadıköy, Beşiktaş, Şişli ve diğer tüm ilçelerde aynı gün / ertesi gün randevu seçenekleri mevcuttur.",
+  },
+  {
+    question: "Koltuk, yatak ve beyaz eşyayı aynı seferde alabilir misiniz?",
+    answer:
+      "Evet. Karışık yüklerde (koltuk + dolap + beyaz eşya + moloz) tek seferde alım yapıyoruz. Bu, ayrı araç çağırmaktan daha ekonomik ve hızlıdır. WhatsApp'tan fotoğraf göndererek tüm kalemler için tek teklif alın.",
+  },
+  {
+    question: "Belediye büyük eşya almıyor / randevu vermiyor — ne yapmalıyım?",
+    answer:
+      "Belediye hatları kapasite veya randevu kısıtı nedeniyle gecikebilir ve eşyayı kapı önüne indirmenizi ister. Profesyonel kapıdan alım; asansörsüz katlar, acil taşınma ve karışık yüklerde en hızlı yasal alternatiftir. Fotoğraf ile dakikalar içinde fiyat alırsınız.",
+  },
+  {
+    question: "Ücretli mi, ücretsiz mi?",
+    answer:
+      "Belediye büyük atık hatları çoğu ilçede ücretsizdir ancak randevu ve kapıya indirme şartı vardır. Fazlalıkat ücretli profesyonel tahliyedir: eşyayı kattan alır, aynı gün planlar, yönetmeliğe uygun bertaraf eder. Fiyat önceden netleştirilir; gizli ek ücret yoktur.",
   },
 ];

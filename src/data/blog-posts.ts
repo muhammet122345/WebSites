@@ -1083,6 +1083,21 @@ export const BLOG_POSTS: BlogPost[] = [
         body:
           "Beşiktaş'ın dar sokaklarına ve eski bina yapısına uygun ekipmanla çalışıyor, koltuk, dolap, beyaz eşya ve diğer eski eşyalarınızı aynı gün randevu ile bulunduğu kattan alıyoruz.",
       },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Beşiktaş bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Beşiktaş içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Beşiktaş genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
     ],
   },
   {
@@ -1119,6 +1134,21 @@ export const BLOG_POSTS: BlogPost[] = [
         body:
           "Bakırköy'deki eski apartmanlardan ve sahil bölgesindeki sitelerden mobilya, beyaz eşya ve diğer eski eşyaları aynı gün randevu ile alıp doğru bertaraf noktalarına yönlendiriyoruz.",
       },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Bakırköy bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Bakırköy içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Bakırköy genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
     ],
   },
   {
@@ -1155,6 +1185,21 @@ export const BLOG_POSTS: BlogPost[] = [
         body:
           "Esenler'deki toplu konut sitelerinden ve dar sokaklı eski mahallelerden eski eşya ve çöp atımını aynı gün veya ertesi gün randevu ile gerçekleştiriyoruz.",
       },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Esenler bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Esenler içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Esenler genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
     ],
   },
   {
@@ -1191,6 +1236,21 @@ export const BLOG_POSTS: BlogPost[] = [
         body:
           "Sultangazi'nin hem yeni siteleri hem de eski mahallelerinde, bina tipine uygun ekipmanla mobilya ve eski eşya tahliyesi yapıyoruz.",
       },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Sultangazi bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Sultangazi içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Sultangazi genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
     ],
   },
   {
@@ -1227,6 +1287,21 @@ export const BLOG_POSTS: BlogPost[] = [
         body:
           "Güngören'in dar sokaklarına ve asansörsüz bina yapısına uygun şekilde çalışıyor, eski eşyalarınızı aynı gün randevu ile bulunduğu kattan alıyoruz.",
       },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Güngören bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Güngören içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Güngören genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
     ],
   },
   {
@@ -1263,6 +1338,21 @@ export const BLOG_POSTS: BlogPost[] = [
         body:
           "Şişli'deki eski apartmanlardan ve güvenlikli rezidanslardan eşya toplama ve ev boşaltma işlemlerini, bina kurallarına uygun şekilde aynı gün randevu ile gerçekleştiriyoruz.",
       },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Şişli bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Şişli içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Şişli genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
     ],
   },
   {
@@ -1299,6 +1389,21 @@ export const BLOG_POSTS: BlogPost[] = [
         body:
           "Eyüpsultan'ın eğimli ve dar sokaklarına uygun ekipmanla çalışıyor, eski eşyalarınızı ve ev boşaltma ihtiyaçlarınızı aynı gün randevu ile karşılıyoruz.",
       },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Eyüpsultan bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Eyüpsultan içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Eyüpsultan genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
     ],
   },
   {
@@ -1335,6 +1440,21 @@ export const BLOG_POSTS: BlogPost[] = [
         body:
           "Gaziosmanpaşa'nın çok katlı eski binalarına ve dar sokaklarına uygun şekilde çalışıyor, eşyalarınızı aynı gün randevu ile bulunduğu kattan alıyoruz.",
       },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Gaziosmanpaşa bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Gaziosmanpaşa içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Gaziosmanpaşa genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
     ],
   },
   {
@@ -1371,6 +1491,21 @@ export const BLOG_POSTS: BlogPost[] = [
         body:
           "Kentsel dönüşüm öncesi teslim tarihine bağlı işlerde ve eski mahallelerdeki asansörsüz binalarda hızlı ve güvenli tahliye hizmeti sunuyoruz.",
       },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Kağıthane bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Kağıthane içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Kağıthane genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
     ],
   },
   {
@@ -1407,6 +1542,21 @@ export const BLOG_POSTS: BlogPost[] = [
         body:
           "Bahçelievler'deki yoğun apartman dokusuna uygun şekilde çalışıyor, eski eşyalarınızı aynı gün randevu ile bulunduğu kattan alıyoruz.",
       },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Bahçelievler bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Bahçelievler içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Bahçelievler genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
     ],
   },
   {
@@ -1443,6 +1593,21 @@ export const BLOG_POSTS: BlogPost[] = [
         body:
           "Tarihi yarımadanın dar ve eğimli sokaklarına uygun ekipmanla çalışıyor, eski eşyalarınızı bina yapısına zarar vermeden aynı gün randevu ile alıyoruz.",
       },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Fatih'te bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Fatih'te içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Fatih'te genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
     ],
   },
   {
@@ -1479,6 +1644,21 @@ export const BLOG_POSTS: BlogPost[] = [
         body:
           "Zeytinburnu'nun karışık yerleşim dokusuna uygun şekilde, kentsel dönüşüm öncesi teslim tarihine bağlı işlerde hızlı tahliye hizmeti sunuyoruz.",
       },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Zeytinburnu'nda bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Zeytinburnu'nda içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Zeytinburnu'nda genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
     ],
   },
   {
@@ -1515,6 +1695,21 @@ export const BLOG_POSTS: BlogPost[] = [
         body:
           "Esenyurt'un yüksek katlı sitelerine uygun şekilde çalışıyor, eski eşyalarınızı bina yönetimiyle koordineli olarak aynı gün randevu ile alıyoruz.",
       },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Esenyurt bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Esenyurt içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Esenyurt genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
     ],
   },
   {
@@ -1551,6 +1746,21 @@ export const BLOG_POSTS: BlogPost[] = [
         body:
           "Küçükçekmece'nin geniş ve çeşitli yapı dokusuna uygun şekilde çalışıyor, eski eşyalarınızı aynı gün randevu ile bulunduğu kattan alıyoruz.",
       },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Küçükçekmece bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Küçükçekmece içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Küçükçekmece genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
     ],
   },
   {
@@ -1587,6 +1797,21 @@ export const BLOG_POSTS: BlogPost[] = [
         body:
           "Bağcılar'ın yoğun yapılaşmış dokusuna uygun şekilde çalışıyor, eski eşya ve çöp atımını aynı gün veya ertesi gün randevu ile gerçekleştiriyoruz.",
       },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Bağcılar bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Bağcılar içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Bağcılar genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
     ],
   },
   {
@@ -1623,6 +1848,21 @@ export const BLOG_POSTS: BlogPost[] = [
         body:
           "Beylikdüzü'nün planlı site yapısına uygun şekilde çalışıyor, eski eşyalarınızı ve depo alanlarınızı aynı gün randevu ile tahliye ediyoruz.",
       },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Beylikdüzü bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Beylikdüzü içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Beylikdüzü genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
     ],
   },
   {
@@ -1659,6 +1899,21 @@ export const BLOG_POSTS: BlogPost[] = [
         body:
           "Avcılar'ın öğrenci yoğun ve sahil bölgelerine uygun şekilde, dönem başı/sonu yoğunluğunda hızlı randevu ile eski eşya tahliyesi sunuyoruz.",
       },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Avcılar bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Avcılar içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Avcılar genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
     ],
   },
   {
@@ -1695,6 +1950,21 @@ export const BLOG_POSTS: BlogPost[] = [
         body:
           "Beyoğlu'nun dik yokuşlu ve tarihi sokak dokusuna uygun ekipmanla çalışıyor, eski eşyalarınızı bina ve sokağa zarar vermeden aynı gün randevu ile alıyoruz.",
       },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Beyoğlu'nda bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Beyoğlu'nda içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Beyoğlu'nda genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
     ],
   },
   {
@@ -2199,6 +2469,21 @@ export const BLOG_POSTS: BlogPost[] = [
         body:
           "Erenköy'ün köklü apartman dokusuna ve dar park koşullarına uygun şekilde çalışıyor, eski eşyalarınızı aynı gün randevu ile bulunduğu kattan alıp doğru bertaraf noktalarına yönlendiriyoruz.",
       },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Erenköy bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Erenköy içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Erenköy genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
     ],
   },
   {
@@ -2235,6 +2520,21 @@ export const BLOG_POSTS: BlogPost[] = [
         body:
           "Suadiye'nin hem site hem butik apartman dokusuna uygun ekipmanla çalışıyor, eski eşyalarınızı aynı gün randevu ile alıp geri dönüştürülebilir parçaları doğru noktalara yönlendiriyoruz.",
       },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Suadiye bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Suadiye içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Suadiye genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
     ],
   },
   {
@@ -2271,6 +2571,21 @@ export const BLOG_POSTS: BlogPost[] = [
         body:
           "Çiftehavuzlar'ın dar sokaklarına ve sakin yapısına uygun şekilde, sessiz ve düzenli çalışarak eski eşyalarınızı aynı gün randevu ile alıyoruz.",
       },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Çiftehavuzlar bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Çiftehavuzlar içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Çiftehavuzlar genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
     ],
   },
   {
@@ -2307,6 +2622,21 @@ export const BLOG_POSTS: BlogPost[] = [
         body:
           "Kalamış'ın site ve eski apartman karışımı dokusuna uygun ekipmanla çalışıyor, eşyalarınızı aynı gün randevu ile bulunduğu kattan alıyoruz.",
       },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Kalamış bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Kalamış içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Kalamış genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
     ],
   },
   {
@@ -2343,6 +2673,21 @@ export const BLOG_POSTS: BlogPost[] = [
         body:
           "Caddebostan'ın sahil hattındaki yoğun apartman ve site yerleşimine uygun şekilde, mobilya ve eski eşyaları aynı gün randevu ile alıp doğru bertaraf noktalarına yönlendiriyoruz.",
       },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Caddebostan bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Caddebostan içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Caddebostan genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
     ],
   },
   {
@@ -2379,6 +2724,21 @@ export const BLOG_POSTS: BlogPost[] = [
         body:
           "Bostancı'nın yoğun ulaşım ve karma bina dokusuna uygun şekilde çalışıyor, çöp ve eski eşyalarınızı aynı gün randevu ile bulunduğu kattan alıyoruz.",
       },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Bostancı bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Bostancı içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Bostancı genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
     ],
   },
   {
@@ -2415,6 +2775,21 @@ export const BLOG_POSTS: BlogPost[] = [
         body:
           "Etiler'deki rezidans ve sitelerin sıkı kurallarına uygun olarak, komşulara rahatsızlık vermeden sessiz ve hızlı şekilde eski eşyalarınızı topluyoruz.",
       },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Etiler bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Etiler içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Etiler genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
     ],
   },
   {
@@ -2451,6 +2826,21 @@ export const BLOG_POSTS: BlogPost[] = [
         body:
           "Bebek'in sahil şeridindeki villa ve butik apartmanlarında, dar sokaklara rağmen özenli ve hasarsız taşıma sağlayarak eski eşyalarınızı aynı gün randevu ile alıyoruz.",
       },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Bebek'te bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Bebek'te içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Bebek'te genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
     ],
   },
   {
@@ -2487,6 +2877,21 @@ export const BLOG_POSTS: BlogPost[] = [
         body:
           "Ulus'un geniş bahçeli villa dokusuna uygun ekipmanla çalışıyor, iç mekân ve bahçe atıklarını birlikte, aynı gün randevu ile tahliye ediyoruz.",
       },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Ulus Villa bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Ulus Villa içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Ulus Villa genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
     ],
   },
   {
@@ -2522,6 +2927,964 @@ export const BLOG_POSTS: BlogPost[] = [
         heading: "Fazlalıkat ile Nişantaşı'nda eşya toplama",
         body:
           "Nişantaşı'ndaki lüks rezidans ve butik apartmanlarda, planlı ekip yönlendirmesiyle süreci hızlı ve temiz tamamlayarak eski eşyalarınızı ve ev boşaltma ihtiyaçlarınızı karşılıyoruz.",
+      },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Nişantaşı bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Nişantaşı içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Nişantaşı genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
+    ],
+  },
+  {
+    slug: "asansorsuz-binadan-esya-indirme",
+    title: "Asansörsüz Binadan Eşya İndirme: Güvenli ve Hızlı Çözüm",
+    excerpt:
+      "Asansörü olmayan veya dar asansörlü binalarda koltuk, dolap ve beyaz eşya nasıl indirilir? Profesyonel ekip ile riskleri ve maliyeti anlatıyoruz.",
+    date: "03 Ağu 2026",
+    category: "Rehber",
+    image: "/images/blog/eskikoltukrehber.png",
+    sections: [
+      {
+        heading: "Asansörsüz kat neden maliyeti etkiler?",
+        body:
+          "Merdiven indirme işçilik, süre ve ekip sayısını artırır. 3. kat ve üzeri, özellikle köşe koltuk ve dolaplarda iki kişi yerine üç kişilik ekip gerekebilir. Bu yüzden fiyat teklifinde kat ve asansör durumu baştan sorulur.",
+      },
+      {
+        heading: "Kendiniz indirmeye çalışmanın riskleri",
+        body:
+          "Merdivende kayma, duvar sıvası hasarı, kapı kasası kırığı ve bel/omuz yaralanmaları sık görülür. Apartman yönetimi hasarı sizden talep edebilir. Sigortalı profesyonel ekip hem sizi hem komşuları korur.",
+      },
+      {
+        heading: "Doğru ekipman fark yaratır",
+        body:
+          "Kayış, taşıma arabası, koruyucu battaniye ve dar koridor manevrası deneyimi süreci hızlandırır. Fazlalıkat asansörsüz binalarda eşyayı bulunduğu odadan alır; siz kapıya taşımak zorunda kalmazsınız.",
+      },
+      {
+        heading: "İstanbul'da aynı gün planlama",
+        body:
+          "WhatsApp'tan fotoğraf, ilçe, kat ve 'asansör yok' bilgisini yazın. Anadolu ve Avrupa Yakası'nda çoğu bölgede aynı gün veya ertesi gün randevu açılır; net fiyat önceden verilir.",
+      },
+    ],
+  },
+  {
+    slug: "ayni-gun-esya-tahliye-istanbul",
+    title: "Aynı Gün Eşya Tahliye İstanbul | Acil Kapıdan Alım",
+    excerpt:
+      "Taşınma, kiracı çıkışı veya zabıta riski nedeniyle aynı gün eski eşya tahliyesi mi lazım? İstanbul'da acil kapıdan alım sürecini anlatıyoruz.",
+    date: "03 Ağu 2026",
+    category: "Rehber",
+    image: "/images/blog/esyaatmaucreti.png",
+    sections: [
+      {
+        heading: "Ne zaman aynı gün gerekir?",
+        body:
+          "Noter teslimi, kiracı çıkışı, tadilat başlangıcı veya sokağa bırakılmış eşya şikâyeti gibi durumlarda belediye randevusu yetişmeyebilir. Ücretli profesyonel tahliye bu boşluğu doldurur.",
+      },
+      {
+        heading: "Aynı gün için ne bilgisi gerekir?",
+        body:
+          "Eşya fotoğrafları, ilçe, tam adres/mahalle, kat, asansör ve tercih edilen saat aralığı yeterlidir. Karma yüklerde (koltuk + beyaz eşya + moloz) tek seferde plan yapılır.",
+      },
+      {
+        heading: "Hangi yakalar kapsanıyor?",
+        body:
+          "Fazlalıkat hem Anadolu hem Avrupa Yakası'nda çalışır. Kadıköy, Üsküdar, Ümraniye, Sultanbeyli, Beşiktaş, Şişli, Bağcılar, Esenyurt ve diğer 39 ilçede acil talepler değerlendirilir.",
+      },
+      {
+        heading: "Fiyat ve onay",
+        body:
+          "Ön teklif WhatsApp üzerinden verilir; onayınız olmadan ekip hareket etmez. Gizli ücret yoktur. Kullanılabilir eşyalar bağışa yönlendirilebilir.",
+      },
+    ],
+  },
+  {
+    slug: "kadikoy-eski-esya-nereye-atilir",
+    title: "Kadıköy Eski Eşya Nereye Atılır? Kapıdan Alım Rehberi",
+    excerpt:
+      "Kadıköy'de eski koltuk, yatak ve beyaz eşyayı yasal ve hızlı şekilde nasıl attırırsınız? Belediye, hurdacı ve profesyonel tahliye karşılaştırması.",
+    date: "03 Ağu 2026",
+    category: "İlçe Rehberi",
+    image: "/images/blog/eskikoltukrehber.png",
+    sections: [
+      {
+        heading: "Kadıköy'de sokağa bırakmak yasak",
+        body:
+          "Moda, Caferağa, Fenerbahçe, Göztepe ve Bostancı'da kaldırıma veya konteyner yanına hacimli atık bırakmak zabıta cezası riski taşır. Doğru kanal belediye hattı veya kapıdan profesyonel alımdır.",
+      },
+      {
+        heading: "Belediye vs profesyonel alım",
+        body:
+          "Belediye randevusu ücretsiz olabilir ama eşyayı kapı önüne indirmeniz gerekir ve bekleme süresi uzayabilir. Fazlalıkat Kadıköy'de eşyayı daireden alır; aynı gün / ertesi gün seçenekleri sunar.",
+      },
+      {
+        heading: "Popüler talepler",
+        body:
+          "Eski koltuk takımı, yatak, dolap, buzdolabı, daire boşaltma ve tadilat molozu en sık talep edilen hizmetlerdir. Combo sayfalarımızdan mahalle bazlı bilgi alabilirsiniz.",
+      },
+      {
+        heading: "Nasıl teklif alınır?",
+        body:
+          "WhatsApp'a fotoğraf + 'Kadıköy' + kat yazın. Net fiyat dakikalar içinde gelir; onay sonrası ekip adresinize yönlendirilir.",
+      },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Kadıköy bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Kadıköy içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Kadıköy genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
+    ],
+  },
+  {
+    slug: "umraniye-eski-esya-nereye-atilir",
+    title: "Ümraniye Eski Eşya Nereye Atılır? Tahliye Rehberi",
+    excerpt:
+      "Ümraniye'de eski eşya, mobilya ve moloz atımı için belediye ve profesyonel kapıdan alım seçeneklerini karşılaştırıyoruz.",
+    date: "03 Ağu 2026",
+    category: "İlçe Rehberi",
+    image: "/images/blog/eskikoltukrehber.png",
+    sections: [
+      {
+        heading: "Ümraniye'de hacimli atık sorunu",
+        body:
+          "Yoğun site ve apartman dokusunda eski koltuk, depo birikimi ve tadilat molozu sık görülür. Sokağa bırakmak yasaktır; site yönetimi de görüntü kirliliğine tolerans göstermez.",
+      },
+      {
+        heading: "Kapıdan alım avantajı",
+        body:
+          "Asansörsüz bloklarda eşyayı merdivenden siz indirmek zorunda kalmazsınız. Fazlalıkat Ümraniye genelinde kapıdan / odadan alım yapar.",
+      },
+      {
+        heading: "Depo ve çatı katı",
+        body:
+          "Bodrum ve çatı katı temizliği tek seferde planlanabilir. Karışık yüklerde (eşya + moloz) tek araçla çözüm en ekonomik yoldur.",
+      },
+      {
+        heading: "Teklif alma",
+        body:
+          "Fotoğraf, mahalle ve kat bilgisiyle WhatsApp'tan teklif alın. Aynı gün randevu çoğu talepte mümkündür.",
+      },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Ümraniye bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Ümraniye içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Ümraniye genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
+    ],
+  },
+  {
+    slug: "sultanbeyli-eski-esya-nereye-atilir",
+    title: "Sultanbeyli Eski Eşya Nereye Atılır? Yerel Rehber",
+    excerpt:
+      "Sultanbeyli'de eski eşya ve mobilya tahliyesi: belediye hattı, hurdacı ve Fazlalıkat kapıdan alım seçenekleri.",
+    date: "03 Ağu 2026",
+    category: "İlçe Rehberi",
+    image: "/images/blog/eskikoltukrehber.png",
+    sections: [
+      {
+        heading: "Sultanbeyli'de yasal çözüm",
+        body:
+          "Eski koltuk, yatak ve beyaz eşyayı kaldırıma bırakmak cezai risk taşır. Belediye büyük atık hattı veya profesyonel tahliye doğru kanallardır.",
+      },
+      {
+        heading: "Neden Fazlalıkat?",
+        body:
+          "Operasyon merkezimize yakın bölgede hızlı ekip yönlendirmesi yapılır. Eşyayı bulunduğu kattan alır, net fiyat verir, gizli ücret uygulamaz.",
+      },
+      {
+        heading: "Daire ve depo boşaltma",
+        body:
+          "Kiracı çıkışı, miras sonrası ev ve depo temizliği tek seferde yapılabilir. Moloz varsa aynı ekiple taşınır.",
+      },
+      {
+        heading: "İletişim",
+        body:
+          "WhatsApp'tan fotoğraf göndererek dakikalar içinde Sultanbeyli eşya tahliye teklifi alın. Aynı gün / ertesi gün randevu açılır.",
+      },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Sultanbeyli bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Sultanbeyli içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Sultanbeyli genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
+    ],
+  },
+  {
+    slug: "eski-koltuk-takimi-atma-ucreti",
+    title: "Eski Koltuk Takımı Atma Ücreti 2026 | Ne Kadar?",
+    excerpt:
+      "3'lü koltuk, köşe takım ve kanepe atma ücreti 2026'da neye göre değişir? Kat, asansör ve ilçe faktörlerini açıklıyoruz.",
+    date: "03 Ağu 2026",
+    category: "Fiyat",
+    image: "/images/blog/esyaatmaucreti.png",
+    sections: [
+      {
+        heading: "Sabit fiyat neden yoktur?",
+        body:
+          "Tek kanepe ile 3+3+1 takım veya L köşe takım farklı hacim ve işçilik ister. Zemin kat asansörlü ile 5. kat asansörsüz aynı fiyat olamaz.",
+      },
+      {
+        heading: "Fiyatı etkileyen 5 faktör",
+        body:
+          "1) Parça sayısı ve boyut, 2) Kat, 3) Asansör var/yok, 4) İlçe erişimi, 5) Aynı seferde ek eşya (yatak, dolap, beyaz eşya). Fotoğraf ile ön teklif en doğru yöntemdir.",
+      },
+      {
+        heading: "Belediye ücretsiz ama...",
+        body:
+          "Ücretsiz belediye alımı çoğu zaman kapı önüne indirme ve uzun randevu ister. Zaman ve fiziksel yükü hesaba katınca profesyonel hizmet daha pratik olabilir.",
+      },
+      {
+        heading: "Net teklif nasıl alınır?",
+        body:
+          "WhatsApp'a koltuk fotoğrafları, ilçe ve kat yazın. Fazlalıkat gizli ücret olmadan net fiyat verir; onayınızdan sonra ekip gelir.",
+      },
+    ],
+  },
+  {
+    slug: "copatim-alternatifi-neden-fazlalikat",
+    title: "Ücretli Eşya Tahliyede Doğru Firma Nasıl Seçilir?",
+    excerpt:
+      "İstanbul'da ücretli çöp/eşya atım firması seçerken bakmanız gerekenler: kapıdan alım, şeffaf fiyat, iki yaka kapsamı ve yasal bertaraf.",
+    date: "03 Ağu 2026",
+    category: "Rehber",
+    image: "/images/blog/eskikoltukrehber.png",
+    sections: [
+      {
+        heading: "Kapıdan alım vaadi gerçek mi?",
+        body:
+          "Bazı firmalar 'alım' der ama eşyayı sokağa indirmenizi bekler. Sözleşmede / teklifte 'odadan / kattan alım' net yazılmalıdır. Fazlalıkat eşyayı bulunduğu yerden alır.",
+      },
+      {
+        heading: "Tek yaka mı, tüm İstanbul mu?",
+        body:
+          "Sadece Avrupa veya sadece Anadolu odaklı firmalar acil taleplerde sizi bekletebilir. Fazlalıkat 39 ilçede hizmet verir.",
+      },
+      {
+        heading: "Şeffaf fiyat kontrol listesi",
+        body:
+          "Kat, asansör, hacim ve ilçe sorulmadan verilen 'çok ucuz' teklifler sonradan şişebilir. Fotoğrafla net teklif + onay sonrası hareket eden ekipler tercih edilmelidir.",
+      },
+      {
+        heading: "Bertaraf ve bağış",
+        body:
+          "Kullanılabilir eşya bağışa, geri dönüştürülebilir malzeme ayrıştırmaya yönlendirilmelidir. Sadece 'arabaya yükleyip götürme' yeterli değildir.",
+      },
+    ],
+  },
+  {
+    slug: "eski-baza-nereye-atilir",
+    title: "Eski Baza Nereye Atılır? Kapıdan Alım Rehberi",
+    excerpt:
+      "Eski baza, baza+şilte ve karyola İstanbul'da nereye atılır? Belediye, hurdacı ve kapıdan profesyonel alım seçeneklerini karşılaştırıyoruz.",
+    date: "03 Ağu 2026",
+    category: "Rehber",
+    image: "/images/blog/eskiyatak.png",
+    sections: [
+      {
+        heading: "Baza neden ayrı bir sorun?",
+        body:
+          "Baza ve baza takımları yataktan daha hacimli ve ağırdır; sünger, ahşap/metal iskelet ve bazen çekmeceli gövde içerir. Hurdacılar çoğu zaman bazayı almaz çünkü hurda değeri düşüktür. Sokağa veya konteyner yanına bırakmak ise belediye yönetmeliklerine aykırıdır ve idari para cezası riski taşır.",
+      },
+      {
+        heading: "Belediye büyük atık hattı",
+        body:
+          "İlçe belediyeleri veya Alo 153 üzerinden hacimli atık randevusu alınabilir. Ücretsiz olması avantajdır; ancak randevu günler sürebilir ve bazayı genellikle kapı önüne indirmeniz beklenir. Asansörsüz katlarda bu adım tek başına engel olur.",
+      },
+      {
+        heading: "Baza + şilte + yatak birlikte mi?",
+        body:
+          "Çoğu taşınmada baza, şilte ve eski yatak aynı anda çıkar. Profesyonel tahliyede bunları tek seferde almak hem daha ucuz hem daha hızlıdır. Aynı randevuya dolap veya koltuk da eklenebilir.",
+      },
+      {
+        heading: "Kapıdan alım süreci",
+        body:
+          "WhatsApp'tan baza fotoğrafı, ilçe, kat ve asansör bilgisini gönderin. Fazlalıkat net fiyat verir; onayınızdan sonra ekip adrese gelir, bazayı odadan alır ve yönetmeliğe uygun bertaraf veya geri dönüşüme yönlendirir. İstanbul Anadolu ve Avrupa Yakası'nda aynı gün / ertesi gün seçenekleri vardır.",
+      },
+      {
+        heading: "Fiyatı ne etkiler?",
+        body:
+          "Tek baza ile çift kişilik baza+başlık seti farklı hacim ister. Kat sayısı, asansör yokluğu ve dar koridor işçilik ekler. En doğru yol fotoğrafla ön tekliftir; gizli ücret uygulanmaz.",
+      },
+    ],
+  },
+  {
+    slug: "kiraci-tahliyesi-sonrasi-daire-temizligi",
+    title: "Kiracı Tahliyesi Sonrası Daire Temizliği ve Eşya Boşaltma",
+    excerpt:
+      "Kiracı çıktı, geride koltuk yatak dolap mı kaldı? Tahliye sonrası daireyi hızla boşaltıp yeni kiracıya veya satışa hazır hale getirmenin yolları.",
+    date: "03 Ağu 2026",
+    category: "Taşınma",
+    image: "/images/blog/kiracicikisindatemizlik.png",
+    sections: [
+      {
+        heading: "Tahliye sonrası en sık senaryo",
+        body:
+          "Kiracı noter ile çıktıktan sonra dairede kullanılamaz koltuk, baza, kırık dolap, beyaz eşya veya depo birikimi kalabilir. Ev sahibi hem görüntü hem zaman baskısı yaşar; yeni kiralama veya satış ilanı için dairenin boş olması gerekir.",
+      },
+      {
+        heading: "Ne yapmamalısınız?",
+        body:
+          "Eşyaları kaldırıma veya çöp konteynerine bırakmak zabıta cezası ve komşu şikâyeti riski taşır. 'Hurdacı ücretsiz alır' beklentisi de çoğu zaman boşa çıkar; süngerli mobilya ve yatak reddedilir, daire yine yarı dolu kalır.",
+      },
+      {
+        heading: "Doğru sıra: fotoğraf → teklif → boşaltma → temizlik",
+        body:
+          "1) Odaların fotoğrafını çekin. 2) WhatsApp ile Fazlalıkat'tan teklif alın. 3) Aynı gün veya ertesi gün eşya tahliyesi planlayın. 4) Boşalan dairede derin temizlik ve küçük boya/tamirat ile teslime hazır hale getirin. Bu sıra depozito ve yeniden kiralama sürecini kısaltır.",
+      },
+      {
+        heading: "Site ve apartman kuralları",
+        body:
+          "Birçok sitede yük asansörü saati ve araç giriş izni gerekir. Profesyonel ekip randevuyu bu kurallara göre ayarlar; koridor ve asansörü temiz bırakır.",
+      },
+      {
+        heading: "Fazlalıkat ile tahliye sonrası çözüm",
+        body:
+          "İstanbul'un her iki yakasında kiracıdan kalan eşyayı kapıdan alıyor, daireyi boş teslime yaklaştırıyoruz. Moloz veya depo varsa aynı seferde planlanabilir. İlgili rehber: kiracı eşya bıraktı ne yapmalı ve kiracı çıkışı temizlik yazılarımız.",
+      },
+    ],
+  },
+  {
+    slug: "besiktas-hurda-mobilya-alanlar",
+    title: "Beşiktaş Hurda Mobilya Alanlar | Koltuk, Yatak, Baza Toplama",
+    excerpt:
+      "Beşiktaş'ta hurda mobilya, eski koltuk, yatak ve baza için kapıdan alım. Levent, Etiler, Bebek, Ortaköy ve tüm mahallelerde aynı gün seçenek.",
+    date: "03 Ağu 2026",
+    category: "İlçe Rehberi",
+    image: "/images/blog/besiktaseskiesya.png",
+    sections: [
+      {
+        heading: "Beşiktaş'ta 'hurda mobilya alan' ne demek?",
+        body:
+          "Arama yapanlar genelde eski koltuk, baza, dolap ve işe yaramayan mobilyayı evden çıkartacak adres arar. Klasik hurdacı metal değeri olmayan süngerli eşyayı almaz. Fazlalıkat Beşiktaş'ta bu eşyaları daireden alıp bertaraf veya bağışa yönlendirir — ücretli, net fiyatlı, kapıdan.",
+      },
+      {
+        heading: "Levent, Etiler, Bebek, Ortaköy",
+        body:
+          "Rezidans ve site yoğun bölgelerde yönetim kuralları, yük asansörü rezervasyonu ve dar otopark planlamayı etkiler. Randevuyu buna göre kuruyoruz. Bebek ve Ortaköy'ün dar sokaklarında uygun araç seçimi kritiktir.",
+      },
+      {
+        heading: "Neleri alıyoruz?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri. Hacimli çöp ve küçük tadilat molozu da aynı seferde değerlendirilebilir.",
+      },
+      {
+        heading: "Belediye vs profesyonel alım",
+        body:
+          "Belediye hattı ücretsiz olabilir ama eşyayı kapıya indirmek size kalır ve randevu gecikebilir. Acil taşınma veya asansörsüz katlarda kapıdan alım daha pratiktir.",
+      },
+      {
+        heading: "Teklif nasıl alınır?",
+        body:
+          "WhatsApp'a 'Beşiktaş' + mahalle + kat + fotoğraf yazın. Dakikalar içinde fiyat alırsınız. Detay için Beşiktaş eşya tahliye sayfamız ve eski baza rehberimize de bakabilirsiniz.",
+      },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Beşiktaş bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Beşiktaş içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Beşiktaş genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
+    ],
+  },
+  {
+    slug: "eski-hali-nereye-atilir",    title: "Eski Halı Nereye Atılır? Kapıdan Alım ve Bertaraf Rehberi",
+    excerpt:
+      "Eski halı, kilim ve runner İstanbul'da nereye atılır? Belediye, bağış ve profesyonel kapıdan alım seçeneklerini anlatıyoruz.",
+    date: "03 Ağu 2026",
+    category: "Rehber",
+    image: "/images/blog/eskiesyaattirmak.png",
+    sections: [
+      {
+        heading: "Halıyı çöpe atmak doğru mu?",
+        body:
+          "Büyük halı ve kilimler konteynere sığmaz; kaldırıma bırakmak görüntü kirliliği ve zabıta cezası riski yaratır. Sentetik halılarda toz ve akar birikimi de çevre ve sağlık açısından kontrolsüz bertarafı istenmez.",
+      },
+      {
+        heading: "Belediye ve bağış seçenekleri",
+        body:
+          "Bazı ilçe belediyeleri hacimli atık kapsamında halı alabilir; randevu ve kapı önüne indirme şartı çoğu zaman geçerlidir. Kullanılabilir durumdaki halılar sosyal yardım birimlerine veya vakıflara bağışlanabilir — kurumların kapasitesi sınırlıdır.",
+      },
+      {
+        heading: "Halı + mobilya aynı seferde",
+        body:
+          "Taşınmada genelde halı, koltuk, baza ve dolap birlikte çıkar. Tek seferde profesyonel tahliye, ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      },
+      {
+        heading: "Kapıdan alım nasıl işler?",
+        body:
+          "WhatsApp'tan fotoğraf, ölçüye yakın bilgi, ilçe ve kat gönderin. Fazlalıkat halıyı daireden alır; Anadolu ve Avrupa Yakası'nda aynı gün / ertesi gün planlama yapılabilir. Gizli ücret yoktur.",
+      },
+      {
+        heading: "İlgili rehberler",
+        body:
+          "Eski koltuk, eski baza ve ev boşaltma yazılarımızla birlikte okuyun. İlçenize özel sayfadan da WhatsApp teklifi açabilirsiniz.",
+      },
+    ],
+  },
+  {
+    slug: "besiktas-eski-baza-nereye-atilir",
+    title: "Beşiktaş Eski Baza Nereye Atılır? Aynı Gün Kapıdan Alım",
+    excerpt:
+      "Beşiktaş'ta eski baza, şilte ve karyola nasıl attırılır? Levent, Etiler, Bebek, Ortaköy dahil kapıdan alım rehberi.",
+    date: "03 Ağu 2026",
+    category: "İlçe Rehberi",
+    image: "/images/blog/besiktaseskiesya.png",
+    sections: [
+      {
+        heading: "Beşiktaş'ta baza sokağa bırakılır mı?",
+        body:
+          "Hayır. Hacimli atığın kaldırıma veya konteyner yanına bırakılması yasaktır. Belediye randevusu veya profesyonel kapıdan alım doğru kanallardır.",
+      },
+      {
+        heading: "Levent–Etiler–Bebek farkı",
+        body:
+          "Rezidanslarda yük asansörü saati ve güvenlik kaydı gerekir; Bebek/Ortaköy'de dar sokak araç tipini etkiler. Fazlalıkat randevuyu bu koşullara göre planlar.",
+      },
+      {
+        heading: "Baza + yatak + dolap",
+        body:
+          "Tek baza yerine oda boşaltma daha sık görülür. Karışık yükü tek seferde almak maliyeti düşürür. Hurdacılar bazayı çoğu zaman almaz.",
+      },
+      {
+        heading: "Teklif ve randevu",
+        body:
+          "WhatsApp'a Beşiktaş mahallesi, kat, asansör ve fotoğraf yazın. Aynı gün / ertesi gün seçenekleri için fiyat anında netleşir. Detay: eski baza rehberi ve Beşiktaş hurda mobilya yazımız.",
+      },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Beşiktaş bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Beşiktaş içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Beşiktaş genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
+    ],
+  },
+  {
+    slug: "sisli-eski-baza-nereye-atilir",
+    title: "Şişli Eski Baza Nereye Atılır? Kapıdan Alım Rehberi",
+    excerpt:
+      "Şişli'de eski baza ve yatak takımı nereye atılır? Mecidiyeköy, Nişantaşı, Osmanbey dahil aynı gün kapıdan alım.",
+    date: "03 Ağu 2026",
+    category: "İlçe Rehberi",
+    image: "/images/blog/sisli.png",
+    sections: [
+      {
+        heading: "Şişli'de yasal çözüm",
+        body:
+          "Eski bazayı sokağa bırakmak cezai risk taşır. Belediye hattı veya profesyonel tahliye tercih edilmelidir. Asansörsüz apartmanlarda kapıdan alım en pratik yoldur.",
+      },
+      {
+        heading: "Nişantaşı ve Mecidiyeköy",
+        body:
+          "Yoğun trafik, site kuralları ve dar merdivenler planlamayı etkiler. Randevu saatini buna göre ayarlıyoruz; eşyayı odadan biz alıyoruz.",
+      },
+      {
+        heading: "Fiyat sinyali",
+        body:
+          "Kat, asansör ve baza boyutu ücreti belirler. Fotoğraf ile ön teklif verilir; onay olmadan ekip yola çıkmaz.",
+      },
+      {
+        heading: "Nasıl başlanır?",
+        body:
+          "WhatsApp'tan 'Şişli' + mahalle + fotoğraf gönderin. Şişli eşya toplama ve eski baza genel rehberlerimizle birlikte okuyabilirsiniz.",
+      },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Şişli bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Şişli içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Şişli genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
+    ],
+  },
+  {
+    slug: "gungoren-eski-esya-toplama",
+    title: "Güngören Eski Eşya Toplama | Ev Boşaltma ve Aynı Gün Alım",
+    excerpt:
+      "Güngören'de eski eşya toplama, koltuk-yatak-baza alımı ve daire boşaltma. Merter, Gençosman, Akıncılar dahil kapıdan hizmet.",
+    date: "03 Ağu 2026",
+    category: "İlçe Rehberi",
+    image: "/images/blog/gungoren.png",
+    sections: [
+      {
+        heading: "Toplama ile attırma aynı mı?",
+        body:
+          "Aramalarda 'eski eşya toplama' ve 'eski eşya attırma' aynı ihtiyacı ifade eder: eşyayı daireden çıkarıp yasal şekilde uzaklaştırmak. Fazlalıkat Güngören'de kapıdan alım yapar; siz merdivenden indirmezsiniz.",
+      },
+      {
+        heading: "Hangi mahalleler?",
+        body:
+          "Merter, Gençosman, Akıncılar, Güneştepe ve çevre mahallelerde aynı gün / ertesi gün randevu değerlendirilir. Site giriş ve asansör kurallarına uyarız.",
+      },
+      {
+        heading: "Neler toplanır?",
+        body:
+          "Koltuk, baza, yatak, dolap, beyaz eşya, hacimli çöp ve kiracıdan kalan karışık yük. Depo temizliği de aynı ekiple planlanabilir.",
+      },
+      {
+        heading: "Teklif",
+        body:
+          "Fotoğraf + kat + mahalle bilgisiyle WhatsApp'tan net fiyat alın. Güngören eski eşya attırma yazımız ve ilçe tahliye sayfamızla birlikte inceleyin.",
+      },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Güngören bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Güngören içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Güngören genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
+    ],
+  },
+  {
+    slug: "kadikoy-eski-baza-nereye-atilir",
+    title: "Kadıköy Eski Baza Nereye Atılır? Kapıdan Alım Rehberi",
+    excerpt:
+      "Kadıköy'de eski baza, şilte ve karyola nasıl attırılır? Moda, Göztepe, Caddebostan, Fenerbahçe dahil aynı gün kapıdan alım.",
+    date: "03 Ağu 2026",
+    category: "İlçe Rehberi",
+    image: "/images/blog/eskiyatak.png",
+    sections: [
+      {
+        heading: "Kadıköy'de bazayı sokağa bırakmak",
+        body:
+          "Moda, Caferağa, Fenerbahçe, Göztepe ve Caddebostan'da hacimli atığı kaldırıma bırakmak zabıta ve komşu şikâyeti riski taşır. Doğru kanal belediye hattı veya kapıdan profesyonel alımdır.",
+      },
+      {
+        heading: "Dar apartman ve asansörsüz katlar",
+        body:
+          "Kadıköy'ün eski apartman stokunda asansörsüz üst katlar sık görülür. Baza ağır ve hacimlidir; merdivenden amatör indirme hasar ve yaralanma riski yaratır. Fazlalıkat bazayı odadan alır.",
+      },
+      {
+        heading: "Baza + yatak + oda boşaltma",
+        body:
+          "Taşınmada baza genelde şilte ve eski yatakla birlikte çıkar. Tek seferde almak ayrı ayrı çözümden daha ekonomiktir. Koltuk veya dolap da aynı randevuya eklenebilir.",
+      },
+      {
+        heading: "Teklif nasıl alınır?",
+        body:
+          "WhatsApp'a 'Kadıköy' + mahalle + kat + fotoğraf yazın. Aynı gün / ertesi gün seçenekleri için net fiyat alırsınız. Genel baza rehberi ve Kadıköy eski eşya yazımızla birlikte okuyun.",
+      },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Kadıköy bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Kadıköy içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Kadıköy genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
+    ],
+  },
+  {
+    slug: "uskudar-eski-esya-nereye-atilir",
+    title: "Üsküdar Eski Eşya Nereye Atılır? Tahliye Rehberi",
+    excerpt:
+      "Üsküdar'da eski koltuk, yatak, baza ve dolap nereye atılır? Altunizade, Çengelköy, Kuzguncuk, Bağlarbaşı dahil kapıdan alım.",
+    date: "03 Ağu 2026",
+    category: "İlçe Rehberi",
+    image: "/images/blog/eskikoltukrehber.png",
+    sections: [
+      {
+        heading: "Üsküdar'da yasal çözüm",
+        body:
+          "Eski eşyayı konteyner yanına bırakmak yasaktır. Belediye büyük atık randevusu veya profesyonel kapıdan alım tercih edilmelidir. Yokuşlu ve tarihi sokaklarda taşıma planı kritiktir.",
+      },
+      {
+        heading: "Altunizade, Çengelköy, Kuzguncuk",
+        body:
+          "Site yoğun Altunizade ile Boğaz mahallelerinin dar sokakları farklı araç ve ekip planı ister. Fazlalıkat randevuyu mahalle koşullarına göre ayarlar; eşyayı kattan alır.",
+      },
+      {
+        heading: "Daire ve depo boşaltma",
+        body:
+          "Kiracı çıkışı, miras sonrası ev ve kiler/depo birikimleri tek seferde planlanabilir. Moloz varsa aynı ekiple değerlendirilir.",
+      },
+      {
+        heading: "WhatsApp teklif",
+        body:
+          "Fotoğraf, mahalle ve kat bilgisiyle dakikalar içinde fiyat alın. Anadolu Yakası hub'ımızdan diğer ilçelere de geçebilirsiniz.",
+      },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Üsküdar bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Üsküdar içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Üsküdar genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
+    ],
+  },
+  {
+    slug: "maltepe-eski-esya-nereye-atilir",
+    title: "Maltepe Eski Eşya Nereye Atılır? Kapıdan Alım",
+    excerpt:
+      "Maltepe'de eski eşya, koltuk ve baza tahliyesi. Bağlarbaşı, Cevizli, Altayçeşme, Zümrütevler dahil aynı gün seçenek.",
+    date: "03 Ağu 2026",
+    category: "İlçe Rehberi",
+    image: "/images/blog/eskikoltukrehber.png",
+    sections: [
+      {
+        heading: "Maltepe'de hacimli atık",
+        body:
+          "Sahil hattı ve yoğun apartman dokusunda eski koltuk, baza ve beyaz eşya sık çıkar. Sokağa bırakmak cezai risk taşır; kapıdan alım en hızlı yasal çözümdür.",
+      },
+      {
+        heading: "Mahalleler",
+        body:
+          "Bağlarbaşı, Cevizli, Altayçeşme ve Zümrütevler başta olmak üzere Maltepe geneline hizmet veriyoruz. Site asansör saatlerine uygun planlama yapılır.",
+      },
+      {
+        heading: "Fiyat",
+        body:
+          "Hacim, kat ve asansör durumu ücreti belirler. Fotoğraf ile ön teklif; onayınız olmadan ekip yola çıkmaz.",
+      },
+      {
+        heading: "Nasıl başlanır?",
+        body:
+          "WhatsApp'tan 'Maltepe' yazıp fotoğraf gönderin. Kartal ve Pendik komşu ilçe rehberlerimizle birlikte okuyabilirsiniz.",
+      },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Maltepe bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Maltepe içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Maltepe genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
+    ],
+  },
+  {
+    slug: "kartal-eski-esya-nereye-atilir",
+    title: "Kartal Eski Eşya Nereye Atılır? Ev Boşaltma Rehberi",
+    excerpt:
+      "Kartal'da eski eşya nereye atılır? Yakacık, Soğanlık ve kentsel dönüşüm bölgelerinde kapıdan tahliye.",
+    date: "03 Ağu 2026",
+    category: "İlçe Rehberi",
+    image: "/images/blog/eskikoltukrehber.png",
+    sections: [
+      {
+        heading: "Kartal'da doğru kanal",
+        body:
+          "Eski koltuk, baza ve dolabı kaldırıma bırakmak yasaktır. Belediye randevusu gecikebilir; acil boşaltmalarda profesyonel kapıdan alım tercih edilir.",
+      },
+      {
+        heading: "Kentsel dönüşüm ve tadilat",
+        body:
+          "Yakacık–Soğanlık aksında dönüşüm ve tadilat molozu sık görülür. Eşya + moloz karışık yükü tek seferde planlanabilir.",
+      },
+      {
+        heading: "Kapıdan alım",
+        body:
+          "Ekibimiz eşyayı odadan alır; asansörsüz katlarda da siz taşımazsınız. Aynı gün / ertesi gün randevu müsaitliğe göre açılır.",
+      },
+      {
+        heading: "Teklif",
+        body:
+          "WhatsApp'a mahalle, kat ve fotoğraf gönderin. Maltepe ve Pendik yazılarımızla komşu ilçe seçeneklerini de görün.",
+      },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Kartal bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Kartal içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Kartal genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
+    ],
+  },
+  {
+    slug: "pendik-eski-esya-nereye-atilir",
+    title: "Pendik Eski Eşya Nereye Atılır? Aynı Gün Tahliye",
+    excerpt:
+      "Pendik'te eski eşya, mobilya ve baza tahliyesi. Kaynarca, Bahçelievler, Güzelyalı, Yenişehir dahil kapıdan alım.",
+    date: "03 Ağu 2026",
+    category: "İlçe Rehberi",
+    image: "/images/blog/eskikoltukrehber.png",
+    sections: [
+      {
+        heading: "Pendik'te eşya atma sorunu",
+        body:
+          "Sahil ve yoğun yerleşimde hacimli atık sokağa bırakıldığında hem ceza hem görüntü kirliliği oluşur. Yasal çözüm belediye hattı veya profesyonel tahliyedir.",
+      },
+      {
+        heading: "Hizmet kapsamı",
+        body:
+          "Koltuk, baza, yatak, dolap, beyaz eşya, daire boşaltma ve depo temizliği. Kaynarca, Güzelyalı ve Yenişehir dahil Pendik geneline ulaşıyoruz.",
+      },
+      {
+        heading: "Aynı gün planlama",
+        body:
+          "Kiracı çıkışı ve taşınma tarihlerinde müsaitlik durumuna göre aynı gün ekip yönlendirilir. Şeffaf fiyat, gizli ücret yok.",
+      },
+      {
+        heading: "İletişim",
+        body:
+          "Fotoğraf + adres bilgisiyle WhatsApp teklifi alın. Anadolu Yakası eşya tahliye hub'ından tüm ilçe listesine ulaşabilirsiniz.",
+      },
+      {
+        heading: "Süreç, fiyat ve WhatsApp teklifi",
+        body:
+          "Pendik bölgesinde eşya tahliyesi için WhatsApp'a mahalle, kat, asansör durumu ve fotoğrafları gönderin. Dakikalar içinde net teklif alırsınız; onayınız olmadan ekip yola çıkmaz. Aynı gün veya ertesi gün randevu müsaitliğe göre açılır. Gizli ücret uygulanmaz.",
+      },
+      {
+        heading: "Belediye hattı mı, kapıdan alım mı?",
+        body:
+          "Belediye büyük atık / hacimli atık hatları çoğu zaman ücretsizdir ancak randevu bekletebilir ve eşyayı kapı önüne indirmenizi isteyebilir. Pendik içinde asansörsüz kat, dar merdiven veya acil taşınma varsa profesyonel kapıdan alım hem daha hızlı hem daha güvenlidir. Hurdacılar süngerli koltuk, baza ve yatağı sıkça reddeder.",
+      },
+      {
+        heading: "Hangi eşyalar tek seferde alınır?",
+        body:
+          "Koltuk takımı, kanepe, baza, yatak, dolap, gardırop, beyaz eşya, TV ve karışık ev boşaltma yükleri Pendik genelinde tek randevuda alınabilir. Depo / çatı katı birikimi veya küçük tadilat molozu varsa aynı ekiple planlanır; ayrı ayrı çözüm aramaktan daha ekonomiktir.",
+      }
+    ],
+  },
+  {
+    slug: "cope-koltuk-atmak-yasak-mi",
+    title: "Çöpe Koltuk Atmak Yasak mı? Ceza Riski ve Yasal Alternatifler",
+    excerpt:
+      "İstanbul'da çöpe koltuk atmak yasak mı? Konteyner yanına bırakmanın cezası ve belediye / kapıdan alım alternatiflerini anlatıyoruz.",
+    date: "03 Ağu 2026",
+    category: "Rehber",
+    image: "/images/blog/belediye.png",
+    sections: [
+      {
+        heading: "Kısa cevap: evet, gelişigüzel atmak yasaktır",
+        body:
+          "İlçe belediyelerinin emir ve yasak düzenlemelerinde hacimli atıkların (koltuk, yatak, dolap vb.) çöp konteynerine veya kaldırıma bırakılması genelde yasak kapsamındadır. Zabıta tespiti halinde idari para cezası uygulanabilir; yağmurda bekleyen mobilya hem görüntü kirliliği hem komşu şikâyeti üretir.",
+      },
+      {
+        heading: "Belediye büyük / hacimli atık hattı",
+        body:
+          "Ücretsiz veya düşük maliyetli belediye toplama randevusu alınabilir (ilçeye göre Alo 153 veya ilçe hattı). Dezavantajı: bekleme süresi ve çoğu zaman eşyayı kapı önüne indirmeniz gerekmesi. Asansörsüz katlarda bu şart tek başına engel olur.",
+      },
+      {
+        heading: "Profesyonel kapıdan alım",
+        body:
+          "Ücretli eşya tahliye hizmeti koltuğu bulunduğu odadan alır, aynı gün planlayabilir ve yönetmeliğe uygun bertaraf / bağış sürecini üstlenir. Ceza riskini ve fiziksel yükü birlikte kaldırır.",
+      },
+      {
+        heading: "Ne yapmalısınız?",
+        body:
+          "1) Sokağa bırakmayın. 2) Belediye randevusunu veya WhatsApp ile Fazlalıkat teklifini karşılaştırın. 3) Fotoğraf + kat bilgisiyle net fiyat alın. İlgili: eski koltuk nereye atılır ve Alo 153 alternatifi yazılarımız.",
+      },
+    ],
+  },
+  {
+    slug: "alo-153-buyuk-atik-randevu-alternatifi",
+    title: "Alo 153 Büyük Atık Randevusu Alternatifi | Aynı Gün Kapıdan Alım",
+    excerpt:
+      "Alo 153 veya belediye büyük atık randevusu yetişmiyor mu? İstanbul'da aynı gün kapıdan eşya tahliye alternatifi nasıl çalışır?",
+    date: "03 Ağu 2026",
+    category: "Rehber",
+    image: "/images/blog/belediye.png",
+    sections: [
+      {
+        heading: "Alo 153 ne işe yarar?",
+        body:
+          "İstanbul'da hacimli atık talebi için yaygın başlangıç noktalarından biri İBB Çözüm Merkezi / Alo 153'tür; süreç ilçeye göre değişir. Randevu verildiğinde genelde eşyayı kapı önüne hazırlamanız beklenir.",
+      },
+      {
+        heading: "Ne zaman alternatif gerekir?",
+        body:
+          "Taşınma / noter tarihi yakınsa, asansör yoksa, kota veya randevu gecikiyorsa, karışık yük (koltuk+baza+dolap+moloz) varsa profesyonel kapıdan alım daha pratiktir.",
+      },
+      {
+        heading: "Fazlalıkat alternatifi nasıl işler?",
+        body:
+          "WhatsApp'tan fotoğraf gönderirsiniz; dakikalar içinde net teklif alırsınız. Onay sonrası ekip adrese gelir, eşyayı kattan alır. Anadolu ve Avrupa Yakası'nda aynı gün / ertesi gün seçenekleri değerlendirilir.",
+      },
+      {
+        heading: "Ücretli mi, ücretsiz mi?",
+        body:
+          "Belediye hattı çoğu senaryoda ücretsizdir ama zaman ve indirme yükü size kalır. Fazlalıkat ücretlidir; karşılığında hız, kapıdan alım ve şeffaf fiyattır. İkisi de yasal kanaldır — ihtiyaca göre seçin.",
+      },
+    ],
+  },
+  {
+    slug: "eski-cek-yat-nereye-atilir",
+    title: "Eski Çekyat Nereye Atılır? Kapıdan Alım Rehberi",
+    excerpt:
+      "Eski çekyat ve açılır kanepe İstanbul'da nereye atılır? Hurdacı almazsa ne yapılır? Belediye ve profesyonel tahliye seçenekleri.",
+    date: "03 Ağu 2026",
+    category: "Rehber",
+    image: "/images/blog/eskikoltukrehber.png",
+    sections: [
+      {
+        heading: "Çekyat neden zor atılır?",
+        body:
+          "Çekyat hem koltuk hem yatak işlevi görür; sünger, metal iskelet ve mekanizma içerir. Hurdacılar çoğu zaman almaz. Konteynere sığmaz; sokağa bırakmak yasaktır.",
+      },
+      {
+        heading: "Belediye vs kapıdan alım",
+        body:
+          "Belediye randevusu ücretsiz olabilir ama çekyatı kapıya indirmek size kalır. Dar koridor ve asansörsüz katlarda profesyonel ekip daha güvenlidir.",
+      },
+      {
+        heading: "Çekyat + baza + koltuk",
+        body:
+          "Salon boşaltmalarında çekyat sıkça baza ve koltukla birlikte çıkar. Tek seferde tahliye maliyeti düşürür. Fotoğraf ile ön teklif alın.",
+      },
+      {
+        heading: "Fazlalıkat süreci",
+        body:
+          "İlçe, kat, asansör ve fotoğrafı WhatsApp'a gönderin. Aynı gün planlama çoğu bölgede mümkündür. Eski koltuk ve eski baza rehberlerimizle birlikte okuyun.",
+      },
+    ],
+  },
+  {
+    slug: "site-yonetimi-icin-esya-tahliye",
+    title: "Site Yönetimi İçin Toplu Eşya Tahliye Hizmeti",
+    excerpt:
+      "Site ve apartman yönetimleri için ortak alan, depo ve dairelerden toplu eski eşya / çöp tahliyesi nasıl planlanır?",
+    date: "03 Ağu 2026",
+    category: "Hizmet",
+    image: "/images/blog/kompleevbosatlmarehberi.png",
+    sections: [
+      {
+        heading: "Yönetimlerin en sık sorunu",
+        body:
+          "Ortak depoda biriken eşya, tadilat artığı, terk edilmiş mobilya ve koridor engelleri hem güvenlik hem görüntü sorunudur. Tek tek sakinlere bırakmak süreci uzatır; toplu randevu daha verimlidir.",
+      },
+      {
+        heading: "Nasıl planlanır?",
+        body:
+          "Yönetim fotoğraf veya envanter listesi gönderir; yük asansörü saati ve araç giriş izni netleştirilir. Fazlalıkat belirlenen günde birden fazla daire / depo noktasını sırayla tahliye edebilir.",
+      },
+      {
+        heading: "Fiyatlandırma",
+        body:
+          "Toplam hacim, kat dağılımı ve nokta sayısına göre teklif verilir. Şeffaf fiyat; sürpriz ek ücret uygulanmaz. Fatura / dekont ihtiyacı için önceden belirtin.",
+      },
+      {
+        heading: "İletişim",
+        body:
+          "WhatsApp'tan 'site yönetimi / toplu tahliye' yazıp site adı ve fotoğrafları gönderin. Depo ve çatı katı hub'larımız da yönetim taleplerine uygundur.",
+      },
+    ],
+  },
+  {
+    slug: "tadilat-sonrasi-ev-bosaltma",
+    title: "Tadilat Sonrası Ev Boşaltma ve Moloz Temizliği",
+    excerpt:
+      "Tadilat bitti, geride alçıpan, seramik, ambalaj ve eski mobilya mı kaldı? Ev boşaltma + moloz tahliyesini tek seferde planlayın.",
+    date: "03 Ağu 2026",
+    category: "Rehber",
+    image: "/images/blog/moloz.png",
+    sections: [
+      {
+        heading: "Tadilat sonrası tipik yük",
+        body:
+          "Sökülen mutfak dolabı, eski lavabo, alçıpan/seramik kırığı, boya kutusu, ambalaj ve kullanılmayan mobilya aynı anda birikir. Bunları konteynere atmak yasaktır; moloz ile eşya ayrı kanallarda da çözülebilir ama tek ekip daha hızlıdır.",
+      },
+      {
+        heading: "Neden tek seferde?",
+        body:
+          "Ayrı hurdacı + ayrı moloz + kendi taşımanız hem maliyet hem zaman kaybettirir. Fazlalıkat eşya tahliye ve moloz atımını aynı randevuda planlayabilir; araç tipi hacme göre seçilir.",
+      },
+      {
+        heading: "Site kuralları",
+        body:
+          "Birçok sitede tadilat saati ve moloz çıkış izni vardır. Randevuyu buna göre kurar, ortak alanları temiz bırakırız.",
+      },
+      {
+        heading: "Teklif",
+        body:
+          "Oda / balkon fotoğrafları + ilçe + kat bilgisiyle WhatsApp'tan fiyat alın. Moloz atımı ve ev boşaltma sayfalarımızla birlikte inceleyin.",
       },
     ],
   },

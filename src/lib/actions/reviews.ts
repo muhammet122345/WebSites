@@ -30,6 +30,8 @@ export async function submitReview(
     await addReview({ name, role, quote, rating });
     revalidatePath("/admin/yorumlar");
     revalidatePath("/admin");
+    revalidatePath("/yorum");
+    revalidatePath("/");
     return { success: true };
   } catch (err) {
     console.error("submitReview failed:", err);

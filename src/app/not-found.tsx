@@ -1,7 +1,13 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { BRAND } from "@/data/content";
+
+export const metadata: Metadata = {
+  title: "Sayfa bulunamadı",
+  robots: { index: false, follow: true },
+};
 
 export default function NotFound() {
   return (

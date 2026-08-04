@@ -1,0 +1,28 @@
+{
+  "copatimTotal": 50,
+  "ourBlogs": 76,
+  "ourDistricts": 39,
+  "ourCombos": 351,
+  "coveredExactOrStrong": 48,
+  "partial": 0,
+  "gaps": 2,
+  "gapList": [
+    {
+      "key": "",
+      "topic": "",
+      "url": "https://copatim.com/",
+      "kind": "home",
+      "nearest": "eski-koltuk-nereye-atilir",
+      "ratio": 0
+    },
+    {
+      "key": "blog/kiraci-tahliyesi-sonrasi-daire-temizligi",
+      "topic": "kiraci-tahliyesi-sonrasi-daire-temizligi",
+      "url": "https://copatim.com/blog/kiraci-tahliyesi-sonrasi-daire-temizligi.html",
+      "kind": "blog",
+      "nearest": "daire-bosaltma-fiyatlari-2026",
+      "ratio": 0.2
+    }
+  ],
+  "partialList": []
+}

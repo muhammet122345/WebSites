@@ -2,6 +2,7 @@
 
 import { useActionState, useState } from "react";
 import { submitReview, type SubmitReviewState } from "@/lib/actions/reviews";
+import { BRAND } from "@/data/content";
 
 const initialState: SubmitReviewState = {};
 
@@ -31,7 +32,29 @@ function RatingInput({ value, onChange }: { value: number; onChange: (v: number)
   );
 }
 
-export default function ReviewForm() {
+function GoogleReviewCta() {
+  if (!BRAND.googleReviewUrl) {
+    return (
+      <p className="mt-4 text-xs leading-relaxed text-muted">
+        Google yorum linki henüz tanımlı değil. Admin&apos;de{" "}
+        <code className="text-accent">NEXT_PUBLIC_GOOGLE_REVIEW_URL</code> env değişkenini ekleyin.
+      </p>
+    );
+  }
+
+  return (
+    <a
+      href={BRAND.googleReviewUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="mt-5 inline-flex rounded-full bg-accent px-6 py-3 font-display text-sm font-semibold text-[#06070a] transition-transform hover:scale-105"
+    >
+      Google&apos;da yorum yaz
+    </a>
+  );
+}
+
+export default function ReviewForm({ compact = false }: { compact?: boolean }) {
   const [state, formAction, pending] = useActionState(submitReview, initialState);
   const [rating, setRating] = useState(5);
 
@@ -40,20 +63,23 @@ export default function ReviewForm() {
       <div className="rounded-3xl border border-line bg-background-elevated p-7 text-center">
         <p className="font-display text-base font-semibold">Teşekkürler!</p>
         <p className="mt-2 text-sm leading-relaxed text-muted">
-          Yorumunuz alındı. İncelendikten sonra onaylanırsa bu sayfada yayınlanacak.
+          Yorumunuz alındı. Onaylandıktan sonra sitede yayınlanır. Google&apos;daki yorumunuz da
+          yerel sıralamada çok yardımcı olur.
         </p>
+        <GoogleReviewCta />
       </div>
     );
   }
 
   return (
     <form action={formAction} className="rounded-3xl border border-line bg-background-elevated p-7">
-      <h3 className="font-display text-base font-semibold">Bizi Değerlendirin</h3>
+      <h3 className="font-display text-base font-semibold">
+        {compact ? "Sitede yorum bırakın" : "Bizi Değerlendirin"}
+      </h3>
       <p className="mt-1 text-sm text-muted">
-        Deneyiminizi paylaşın; onayladıktan sonra bu sayfada yayınlıyoruz.
+        Deneyiminizi paylaşın; onayladıktan sonra yayınlıyoruz.
       </p>
 
-      {/* Honeypot — hidden from real users, bots tend to fill every field. */}
       <input
         type="text"
         name="website"
